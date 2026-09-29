@@ -1,0 +1,120 @@
+{
+  "schema_version": "0.1",
+  "source": {
+    "kind": "kicad-ipc",
+    "board": "trial.kicad_pcb"
+  },
+  "summary": {
+    "components": 0,
+    "nets": 0,
+    "layers": 2,
+    "enabled_layers": 24,
+    "tracks": 0,
+    "vias": 0,
+    "zones": 0
+  },
+  "components": [],
+  "nets": [],
+  "layers": [
+    {
+      "id": 3,
+      "name": "F.Cu"
+    },
+    {
+      "id": 42,
+      "name": "F.Mask"
+    },
+    {
+      "id": 34,
+      "name": "B.Cu"
+    },
+    {
+      "id": 41,
+      "name": "B.Mask"
+    },
+    {
+      "id": 40,
+      "name": "F.Silkscreen"
+    },
+    {
+      "id": 39,
+      "name": "B.Silkscreen"
+    },
+    {
+      "id": 36,
+      "name": "F.Adhesive"
+    },
+    {
+      "id": 35,
+      "name": "B.Adhesive"
+    },
+    {
+      "id": 38,
+      "name": "F.Paste"
+    },
+    {
+      "id": 37,
+      "name": "B.Paste"
+    },
+    {
+      "id": 43,
+      "name": "User.Drawings"
+    },
+    {
+      "id": 44,
+      "name": "User.Comments"
+    },
+    {
+      "id": 45,
+      "name": "User.Eco1"
+    },
+    {
+      "id": 46,
+      "name": "User.Eco2"
+    },
+    {
+      "id": 47,
+      "name": "Edge.Cuts"
+    },
+    {
+      "id": 48,
+      "name": "Margin"
+    },
+    {
+      "id": 49,
+      "name": "B.Courtyard"
+    },
+    {
+      "id": 50,
+      "name": "F.Courtyard"
+    },
+    {
+      "id": 51,
+      "name": "B.Fab"
+    },
+    {
+      "id": 52,
+      "name": "F.Fab"
+    },
+    {
+      "id": 53,
+      "name": "User.1"
+    },
+    {
+      "id": 54,
+      "name": "User.2"
+    },
+    {
+      "id": 55,
+      "name": "User.3"
+    },
+    {
+      "id": 56,
+      "name": "User.4"
+    }
+  ],
+  "geometry": {
+    "tracks": [],
+    "vias": []
+  }
+}

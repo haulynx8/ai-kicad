@@ -1,0 +1,4161 @@
+{
+  "schema_version": "0.4",
+  "source": {
+    "pcb": {
+      "kind": "kicad-ipc",
+      "board": "a-c_adapter.kicad_pcb"
+    },
+    "schematic": {
+      "kind": "kicad-cli-netlist",
+      "source": "/home/mwangi/.local/share/kicad/10.0/projects/a-c_adapter/a-c_adapter.kicad_sch",
+      "tool": "Eeschema 10.0.6"
+    }
+  },
+  "pcb": {
+    "schema_version": "0.2",
+    "source": {
+      "kind": "kicad-ipc",
+      "board": "a-c_adapter.kicad_pcb"
+    },
+    "summary": {
+      "components": 5,
+      "nets": 59,
+      "layers": 2,
+      "enabled_layers": 24,
+      "tracks": 0,
+      "vias": 0,
+      "zones": 0
+    },
+    "components": [
+      {
+        "reference": "J1",
+        "value": "GSB416445CHR",
+        "footprint": "A:AMPHENOL_GSB416445CHR",
+        "side": "F.Cu",
+        "position_mm": {
+          "x": 176.29575,
+          "y": 113.5625
+        },
+        "pads": [
+          {
+            "number": "1",
+            "name": "",
+            "net": "unconnected-(J1-VBUS-Pad1)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "2",
+            "name": "",
+            "net": "ESD -",
+            "net_type": "named"
+          },
+          {
+            "number": "3",
+            "name": "",
+            "net": "ESD +",
+            "net_type": "named"
+          },
+          {
+            "number": "4",
+            "name": "",
+            "net": "unconnected-(J1-GND-Pad4)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "5",
+            "name": "",
+            "net": "SSpeed N -",
+            "net_type": "named"
+          },
+          {
+            "number": "6",
+            "name": "",
+            "net": "SSpeed N",
+            "net_type": "named"
+          },
+          {
+            "number": "7",
+            "name": "",
+            "net": "unconnected-(J1-GND_DRAIN-Pad7)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "8",
+            "name": "",
+            "net": "SSpeed T -",
+            "net_type": "named"
+          },
+          {
+            "number": "9",
+            "name": "",
+            "net": "SSpeed T",
+            "net_type": "named"
+          },
+          {
+            "number": "SH1",
+            "name": "",
+            "net": "unconnected-(J1-SHIELD-PadSH1)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "SH2",
+            "name": "",
+            "net": "unconnected-(J1-SHIELD__1-PadSH2)",
+            "net_type": "unconnected"
+          }
+        ]
+      },
+      {
+        "reference": "J2",
+        "value": "2047110001",
+        "footprint": "C:MOLEX_2047110001",
+        "side": "F.Cu",
+        "position_mm": {
+          "x": 159.75,
+          "y": 117.255
+        },
+        "pads": [
+          {
+            "number": "A1",
+            "name": "",
+            "net": "unconnected-(J2-GND_A1-PadA1)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "A2",
+            "name": "",
+            "net": "J-U SS T1",
+            "net_type": "named"
+          },
+          {
+            "number": "A3",
+            "name": "",
+            "net": "J-U SS T1 -",
+            "net_type": "named"
+          },
+          {
+            "number": "A4",
+            "name": "",
+            "net": "Net-(J2-VBUS_A4)",
+            "net_type": "named"
+          },
+          {
+            "number": "A5",
+            "name": "",
+            "net": "CC conn",
+            "net_type": "named"
+          },
+          {
+            "number": "A6",
+            "name": "",
+            "net": "ESD +",
+            "net_type": "named"
+          },
+          {
+            "number": "A7",
+            "name": "",
+            "net": "ESD -",
+            "net_type": "named"
+          },
+          {
+            "number": "A8",
+            "name": "",
+            "net": "unconnected-(J2-SBU1-PadA8)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "A9",
+            "name": "",
+            "net": "unconnected-(J2-VBUS_A9-PadA9)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "A10",
+            "name": "",
+            "net": "J-U SS R2 -",
+            "net_type": "named"
+          },
+          {
+            "number": "A11",
+            "name": "",
+            "net": "J-U SS R2",
+            "net_type": "named"
+          },
+          {
+            "number": "A12",
+            "name": "",
+            "net": "unconnected-(J2-GND_A12-PadA12)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "B1",
+            "name": "",
+            "net": "unconnected-(J2-GND_B1-PadB1)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "B2",
+            "name": "",
+            "net": "J-U SS T2",
+            "net_type": "named"
+          },
+          {
+            "number": "B3",
+            "name": "",
+            "net": "J-U SS T2 -",
+            "net_type": "named"
+          },
+          {
+            "number": "B4",
+            "name": "",
+            "net": "unconnected-(J2-VBUS_B4-PadB4)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "B5",
+            "name": "",
+            "net": "CC conn",
+            "net_type": "named"
+          },
+          {
+            "number": "B6",
+            "name": "",
+            "net": "unconnected-(J2-D2+-PadB6)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "B7",
+            "name": "",
+            "net": "unconnected-(J2-D2--PadB7)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "B8",
+            "name": "",
+            "net": "unconnected-(J2-SBU2-PadB8)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "B9",
+            "name": "",
+            "net": "unconnected-(J2-VBUS_B9-PadB9)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "B10",
+            "name": "",
+            "net": "J-U SS R -",
+            "net_type": "named"
+          },
+          {
+            "number": "B11",
+            "name": "",
+            "net": "J-U SS R",
+            "net_type": "named"
+          },
+          {
+            "number": "B12",
+            "name": "",
+            "net": "unconnected-(J2-GND_B12-PadB12)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "SH1",
+            "name": "",
+            "net": "unconnected-(J2-SHIELD1-PadSH1)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "SH2",
+            "name": "",
+            "net": "unconnected-(J2-SHIELD2-PadSH2)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "SH3",
+            "name": "",
+            "net": "unconnected-(J2-SHIELD3-PadSH3)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "SH4",
+            "name": "",
+            "net": "unconnected-(J2-SHIELD4-PadSH4)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "SH5",
+            "name": "",
+            "net": "unconnected-(J2-SHIELD5-PadSH5)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "SH6",
+            "name": "",
+            "net": "unconnected-(J2-SHIELD6-PadSH6)",
+            "net_type": "unconnected"
+          }
+        ]
+      },
+      {
+        "reference": "R3",
+        "value": "900 kOhm",
+        "footprint": "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder",
+        "side": "F.Cu",
+        "position_mm": {
+          "x": 152.5675,
+          "y": 108.0
+        },
+        "pads": [
+          {
+            "number": "1",
+            "name": "",
+            "net": "VB Det",
+            "net_type": "named"
+          },
+          {
+            "number": "2",
+            "name": "",
+            "net": "Net-(J2-VBUS_A4)",
+            "net_type": "named"
+          }
+        ]
+      },
+      {
+        "reference": "U1",
+        "value": "TPD4E05U06DQAR",
+        "footprint": "esd:IC_TPD4E05U06DQAR",
+        "side": "F.Cu",
+        "position_mm": {
+          "x": 176.4175,
+          "y": 105.4175
+        },
+        "pads": [
+          {
+            "number": "1",
+            "name": "",
+            "net": "ESD +",
+            "net_type": "named"
+          },
+          {
+            "number": "2",
+            "name": "",
+            "net": "ESD -",
+            "net_type": "named"
+          },
+          {
+            "number": "3",
+            "name": "",
+            "net": "unconnected-(U1-GND-Pad3)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "4",
+            "name": "",
+            "net": "ESD +",
+            "net_type": "named"
+          },
+          {
+            "number": "5",
+            "name": "",
+            "net": "ESD -",
+            "net_type": "named"
+          },
+          {
+            "number": "6",
+            "name": "",
+            "net": "unconnected-(U1-NC_6-Pad6)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "7",
+            "name": "",
+            "net": "unconnected-(U1-NC_7-Pad7)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "8",
+            "name": "",
+            "net": "unconnected-(U1-GND__1-Pad8)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "9",
+            "name": "",
+            "net": "unconnected-(U1-NC_9-Pad9)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "10",
+            "name": "",
+            "net": "unconnected-(U1-NC_10-Pad10)",
+            "net_type": "unconnected"
+          }
+        ]
+      },
+      {
+        "reference": "U2",
+        "value": "HD3SS3220IRNHT",
+        "footprint": "mux:QFN40P450X250X80-31N120X320",
+        "side": "F.Cu",
+        "position_mm": {
+          "x": 159.5,
+          "y": 105.0
+        },
+        "pads": [
+          {
+            "number": "1",
+            "name": "",
+            "net": "CC conn",
+            "net_type": "named"
+          },
+          {
+            "number": "2",
+            "name": "",
+            "net": "CC conn",
+            "net_type": "named"
+          },
+          {
+            "number": "3",
+            "name": "",
+            "net": "unconnected-(U2-CURRENT_MODE-Pad3)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "4",
+            "name": "",
+            "net": "GND",
+            "net_type": "named"
+          },
+          {
+            "number": "5",
+            "name": "",
+            "net": "VB Det",
+            "net_type": "named"
+          },
+          {
+            "number": "6",
+            "name": "",
+            "net": "SSpeed T",
+            "net_type": "named"
+          },
+          {
+            "number": "7",
+            "name": "",
+            "net": "SSpeed T -",
+            "net_type": "named"
+          },
+          {
+            "number": "8",
+            "name": "",
+            "net": "unconnected-(U2-VCC33-Pad8)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "9",
+            "name": "",
+            "net": "SSpeed N",
+            "net_type": "named"
+          },
+          {
+            "number": "10",
+            "name": "",
+            "net": "SSpeed N -",
+            "net_type": "named"
+          },
+          {
+            "number": "11",
+            "name": "",
+            "net": "unconnected-(U2-DIR-Pad11)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "12",
+            "name": "",
+            "net": "GND",
+            "net_type": "named"
+          },
+          {
+            "number": "13",
+            "name": "",
+            "net": "unconnected-(U2-GND-Pad13)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "14",
+            "name": "",
+            "net": "J-U SS R -",
+            "net_type": "named"
+          },
+          {
+            "number": "15",
+            "name": "",
+            "net": "J-U SS R",
+            "net_type": "named"
+          },
+          {
+            "number": "16",
+            "name": "",
+            "net": "J-U SS T1 -",
+            "net_type": "named"
+          },
+          {
+            "number": "17",
+            "name": "",
+            "net": "J-U SS T1",
+            "net_type": "named"
+          },
+          {
+            "number": "18",
+            "name": "",
+            "net": "J-U SS R2 -",
+            "net_type": "named"
+          },
+          {
+            "number": "19",
+            "name": "",
+            "net": "J-U SS R2",
+            "net_type": "named"
+          },
+          {
+            "number": "20",
+            "name": "",
+            "net": "J-U SS T2 -",
+            "net_type": "named"
+          },
+          {
+            "number": "21",
+            "name": "",
+            "net": "J-U SS T2",
+            "net_type": "named"
+          },
+          {
+            "number": "22",
+            "name": "",
+            "net": "unconnected-(U2-ADDR-Pad22)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "23",
+            "name": "",
+            "net": "unconnected-(U2-~{INT_N}{slash}OUT3-Pad23)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "24",
+            "name": "",
+            "net": "unconnected-(U2-VCONN_FAULT_N-Pad24)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "25",
+            "name": "",
+            "net": "unconnected-(U2-SDA{slash}OUT1-Pad25)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "26",
+            "name": "",
+            "net": "unconnected-(U2-SCL{slash}OUT2-Pad26)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "27",
+            "name": "",
+            "net": "unconnected-(U2-ID-Pad27)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "28",
+            "name": "",
+            "net": "unconnected-(U2-GND__1-Pad28)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "29",
+            "name": "",
+            "net": "GND",
+            "net_type": "named"
+          },
+          {
+            "number": "30",
+            "name": "",
+            "net": "unconnected-(U2-VDD5-Pad30)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "31",
+            "name": "",
+            "net": "unconnected-(U2-EXP_PAD-Pad31)",
+            "net_type": "unconnected"
+          }
+        ]
+      }
+    ],
+    "nets": [
+      {
+        "name": "CC conn",
+        "net_type": "named"
+      },
+      {
+        "name": "ESD +",
+        "net_type": "named"
+      },
+      {
+        "name": "ESD -",
+        "net_type": "named"
+      },
+      {
+        "name": "GND",
+        "net_type": "named"
+      },
+      {
+        "name": "J-U SS R",
+        "net_type": "named"
+      },
+      {
+        "name": "J-U SS R -",
+        "net_type": "named"
+      },
+      {
+        "name": "J-U SS R2",
+        "net_type": "named"
+      },
+      {
+        "name": "J-U SS R2 -",
+        "net_type": "named"
+      },
+      {
+        "name": "J-U SS T1",
+        "net_type": "named"
+      },
+      {
+        "name": "J-U SS T1 -",
+        "net_type": "named"
+      },
+      {
+        "name": "J-U SS T2",
+        "net_type": "named"
+      },
+      {
+        "name": "J-U SS T2 -",
+        "net_type": "named"
+      },
+      {
+        "name": "Net-(J2-VBUS_A4)",
+        "net_type": "named"
+      },
+      {
+        "name": "SSpeed N",
+        "net_type": "named"
+      },
+      {
+        "name": "SSpeed N -",
+        "net_type": "named"
+      },
+      {
+        "name": "SSpeed T",
+        "net_type": "named"
+      },
+      {
+        "name": "SSpeed T -",
+        "net_type": "named"
+      },
+      {
+        "name": "VB Det",
+        "net_type": "named"
+      },
+      {
+        "name": "unconnected-(J1-GND-Pad4)",
+        "net_type": "unconnected"
+      },
+      {
+        "name": "unconnected-(J1-GND_DRAIN-Pad7)",
+        "net_type": "unconnected"
+      },
+      {
+        "name": "unconnected-(J1-SHIELD-PadSH1)",
+        "net_type": "unconnected"
+      },
+      {
+        "name": "unconnected-(J1-SHIELD__1-PadSH2)",
+        "net_type": "unconnected"
+      },
+      {
+        "name": "unconnected-(J1-VBUS-Pad1)",
+        "net_type": "unconnected"
+      },
+      {
+        "name": "unconnected-(J2-D2+-PadB6)",
+        "net_type": "unconnected"
+      },
+      {
+        "name": "unconnected-(J2-D2--PadB7)",
+        "net_type": "unconnected"
+      },
+      {
+        "name": "unconnected-(J2-GND_A1-PadA1)",
+        "net_type": "unconnected"
+      },
+      {
+        "name": "unconnected-(J2-GND_A12-PadA12)",
+        "net_type": "unconnected"
+      },
+      {
+        "name": "unconnected-(J2-GND_B1-PadB1)",
+        "net_type": "unconnected"
+      },
+      {
+        "name": "unconnected-(J2-GND_B12-PadB12)",
+        "net_type": "unconnected"
+      },
+      {
+        "name": "unconnected-(J2-SBU1-PadA8)",
+        "net_type": "unconnected"
+      },
+      {
+        "name": "unconnected-(J2-SBU2-PadB8)",
+        "net_type": "unconnected"
+      },
+      {
+        "name": "unconnected-(J2-SHIELD1-PadSH1)",
+        "net_type": "unconnected"
+      },
+      {
+        "name": "unconnected-(J2-SHIELD2-PadSH2)",
+        "net_type": "unconnected"
+      },
+      {
+        "name": "unconnected-(J2-SHIELD3-PadSH3)",
+        "net_type": "unconnected"
+      },
+      {
+        "name": "unconnected-(J2-SHIELD4-PadSH4)",
+        "net_type": "unconnected"
+      },
+      {
+        "name": "unconnected-(J2-SHIELD5-PadSH5)",
+        "net_type": "unconnected"
+      },
+      {
+        "name": "unconnected-(J2-SHIELD6-PadSH6)",
+        "net_type": "unconnected"
+      },
+      {
+        "name": "unconnected-(J2-VBUS_A9-PadA9)",
+        "net_type": "unconnected"
+      },
+      {
+        "name": "unconnected-(J2-VBUS_B4-PadB4)",
+        "net_type": "unconnected"
+      },
+      {
+        "name": "unconnected-(J2-VBUS_B9-PadB9)",
+        "net_type": "unconnected"
+      },
+      {
+        "name": "unconnected-(U1-GND-Pad3)",
+        "net_type": "unconnected"
+      },
+      {
+        "name": "unconnected-(U1-GND__1-Pad8)",
+        "net_type": "unconnected"
+      },
+      {
+        "name": "unconnected-(U1-NC_10-Pad10)",
+        "net_type": "unconnected"
+      },
+      {
+        "name": "unconnected-(U1-NC_6-Pad6)",
+        "net_type": "unconnected"
+      },
+      {
+        "name": "unconnected-(U1-NC_7-Pad7)",
+        "net_type": "unconnected"
+      },
+      {
+        "name": "unconnected-(U1-NC_9-Pad9)",
+        "net_type": "unconnected"
+      },
+      {
+        "name": "unconnected-(U2-ADDR-Pad22)",
+        "net_type": "unconnected"
+      },
+      {
+        "name": "unconnected-(U2-CURRENT_MODE-Pad3)",
+        "net_type": "unconnected"
+      },
+      {
+        "name": "unconnected-(U2-DIR-Pad11)",
+        "net_type": "unconnected"
+      },
+      {
+        "name": "unconnected-(U2-EXP_PAD-Pad31)",
+        "net_type": "unconnected"
+      },
+      {
+        "name": "unconnected-(U2-GND-Pad13)",
+        "net_type": "unconnected"
+      },
+      {
+        "name": "unconnected-(U2-GND__1-Pad28)",
+        "net_type": "unconnected"
+      },
+      {
+        "name": "unconnected-(U2-ID-Pad27)",
+        "net_type": "unconnected"
+      },
+      {
+        "name": "unconnected-(U2-SCL{slash}OUT2-Pad26)",
+        "net_type": "unconnected"
+      },
+      {
+        "name": "unconnected-(U2-SDA{slash}OUT1-Pad25)",
+        "net_type": "unconnected"
+      },
+      {
+        "name": "unconnected-(U2-VCC33-Pad8)",
+        "net_type": "unconnected"
+      },
+      {
+        "name": "unconnected-(U2-VCONN_FAULT_N-Pad24)",
+        "net_type": "unconnected"
+      },
+      {
+        "name": "unconnected-(U2-VDD5-Pad30)",
+        "net_type": "unconnected"
+      },
+      {
+        "name": "unconnected-(U2-~{INT_N}{slash}OUT3-Pad23)",
+        "net_type": "unconnected"
+      }
+    ],
+    "layers": [
+      {
+        "id": 3,
+        "name": "F.Cu"
+      },
+      {
+        "id": 42,
+        "name": "F.Mask"
+      },
+      {
+        "id": 34,
+        "name": "B.Cu"
+      },
+      {
+        "id": 41,
+        "name": "B.Mask"
+      },
+      {
+        "id": 40,
+        "name": "F.Silkscreen"
+      },
+      {
+        "id": 39,
+        "name": "B.Silkscreen"
+      },
+      {
+        "id": 36,
+        "name": "F.Adhesive"
+      },
+      {
+        "id": 35,
+        "name": "B.Adhesive"
+      },
+      {
+        "id": 38,
+        "name": "F.Paste"
+      },
+      {
+        "id": 37,
+        "name": "B.Paste"
+      },
+      {
+        "id": 43,
+        "name": "User.Drawings"
+      },
+      {
+        "id": 44,
+        "name": "User.Comments"
+      },
+      {
+        "id": 45,
+        "name": "User.Eco1"
+      },
+      {
+        "id": 46,
+        "name": "User.Eco2"
+      },
+      {
+        "id": 47,
+        "name": "Edge.Cuts"
+      },
+      {
+        "id": 48,
+        "name": "Margin"
+      },
+      {
+        "id": 49,
+        "name": "B.Courtyard"
+      },
+      {
+        "id": 50,
+        "name": "F.Courtyard"
+      },
+      {
+        "id": 51,
+        "name": "B.Fab"
+      },
+      {
+        "id": 52,
+        "name": "F.Fab"
+      },
+      {
+        "id": 53,
+        "name": "User.1"
+      },
+      {
+        "id": 54,
+        "name": "User.2"
+      },
+      {
+        "id": 55,
+        "name": "User.3"
+      },
+      {
+        "id": 56,
+        "name": "User.4"
+      }
+    ],
+    "geometry": {
+      "tracks": [],
+      "vias": []
+    }
+  },
+  "components": [
+    {
+      "reference": "J1",
+      "schematic": {
+        "reference": "J1",
+        "value": "GSB416445CHR",
+        "footprint": "A:AMPHENOL_GSB416445CHR",
+        "library_id": "usb-a male:GSB416445CHR"
+      },
+      "pcb": {
+        "value": "GSB416445CHR",
+        "footprint": "A:AMPHENOL_GSB416445CHR",
+        "side": "F.Cu",
+        "position_mm": {
+          "x": 176.29575,
+          "y": 113.5625
+        }
+      },
+      "evidence_level": "raw"
+    },
+    {
+      "reference": "J2",
+      "schematic": {
+        "reference": "J2",
+        "value": "2047110001",
+        "footprint": "C:MOLEX_2047110001",
+        "library_id": "usb-c female:2047110001"
+      },
+      "pcb": {
+        "value": "2047110001",
+        "footprint": "C:MOLEX_2047110001",
+        "side": "F.Cu",
+        "position_mm": {
+          "x": 159.75,
+          "y": 117.255
+        }
+      },
+      "evidence_level": "raw"
+    },
+    {
+      "reference": "R3",
+      "schematic": {
+        "reference": "R3",
+        "value": "900 kOhm",
+        "footprint": "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder",
+        "library_id": "Device:R_Small_US"
+      },
+      "pcb": {
+        "value": "900 kOhm",
+        "footprint": "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder",
+        "side": "F.Cu",
+        "position_mm": {
+          "x": 152.5675,
+          "y": 108.0
+        }
+      },
+      "evidence_level": "raw"
+    },
+    {
+      "reference": "U1",
+      "schematic": {
+        "reference": "U1",
+        "value": "TPD4E05U06DQAR",
+        "footprint": "esd:IC_TPD4E05U06DQAR",
+        "library_id": "ESD:TPD4E05U06DQAR"
+      },
+      "pcb": {
+        "value": "TPD4E05U06DQAR",
+        "footprint": "esd:IC_TPD4E05U06DQAR",
+        "side": "F.Cu",
+        "position_mm": {
+          "x": 176.4175,
+          "y": 105.4175
+        }
+      },
+      "evidence_level": "raw"
+    },
+    {
+      "reference": "U2",
+      "schematic": {
+        "reference": "U2",
+        "value": "HD3SS3220IRNHT",
+        "footprint": "mux:QFN40P450X250X80-31N120X320",
+        "library_id": "Mux:HD3SS3220IRNHT"
+      },
+      "pcb": {
+        "value": "HD3SS3220IRNHT",
+        "footprint": "mux:QFN40P450X250X80-31N120X320",
+        "side": "F.Cu",
+        "position_mm": {
+          "x": 159.5,
+          "y": 105.0
+        }
+      },
+      "evidence_level": "raw"
+    }
+  ],
+  "schematic_nets": [
+    {
+      "code": "1",
+      "name": "CC conn",
+      "net_type": "named",
+      "pins": [
+        {
+          "reference": "J2",
+          "number": "A5",
+          "function": "CC1_A5",
+          "electrical_type": "bidirectional"
+        },
+        {
+          "reference": "J2",
+          "number": "B5",
+          "function": "CC2_B5",
+          "electrical_type": "bidirectional"
+        },
+        {
+          "reference": "U2",
+          "number": "1",
+          "function": "CC2_1",
+          "electrical_type": "bidirectional"
+        },
+        {
+          "reference": "U2",
+          "number": "2",
+          "function": "CC1_2",
+          "electrical_type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "code": "2",
+      "name": "ESD +",
+      "net_type": "named",
+      "pins": [
+        {
+          "reference": "J1",
+          "number": "3",
+          "function": "D+_3",
+          "electrical_type": "bidirectional"
+        },
+        {
+          "reference": "J2",
+          "number": "A6",
+          "function": "D1+_A6",
+          "electrical_type": "bidirectional"
+        },
+        {
+          "reference": "U1",
+          "number": "1",
+          "function": "D1+_1",
+          "electrical_type": "bidirectional"
+        },
+        {
+          "reference": "U1",
+          "number": "4",
+          "function": "D2+_4",
+          "electrical_type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "code": "3",
+      "name": "ESD -",
+      "net_type": "named",
+      "pins": [
+        {
+          "reference": "J1",
+          "number": "2",
+          "function": "D-_2",
+          "electrical_type": "bidirectional"
+        },
+        {
+          "reference": "J2",
+          "number": "A7",
+          "function": "D1-_A7",
+          "electrical_type": "bidirectional"
+        },
+        {
+          "reference": "U1",
+          "number": "2",
+          "function": "D1-_2",
+          "electrical_type": "bidirectional"
+        },
+        {
+          "reference": "U1",
+          "number": "5",
+          "function": "D2-_5",
+          "electrical_type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "code": "4",
+      "name": "GND",
+      "net_type": "named",
+      "pins": [
+        {
+          "reference": "U2",
+          "number": "12",
+          "function": "~{ENN_MUX}_12",
+          "electrical_type": "input"
+        },
+        {
+          "reference": "U2",
+          "number": "29",
+          "function": "~{ENN_CC}_29",
+          "electrical_type": "input"
+        },
+        {
+          "reference": "U2",
+          "number": "4",
+          "function": "PORT_4",
+          "electrical_type": "input"
+        }
+      ]
+    },
+    {
+      "code": "5",
+      "name": "J-U SS R",
+      "net_type": "named",
+      "pins": [
+        {
+          "reference": "J2",
+          "number": "B11",
+          "function": "RX1+_B11",
+          "electrical_type": "bidirectional"
+        },
+        {
+          "reference": "U2",
+          "number": "15",
+          "function": "RX1P_15",
+          "electrical_type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "code": "6",
+      "name": "J-U SS R -",
+      "net_type": "named",
+      "pins": [
+        {
+          "reference": "J2",
+          "number": "B10",
+          "function": "RX1-_B10",
+          "electrical_type": "bidirectional"
+        },
+        {
+          "reference": "U2",
+          "number": "14",
+          "function": "RX1N_14",
+          "electrical_type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "code": "7",
+      "name": "J-U SS R2",
+      "net_type": "named",
+      "pins": [
+        {
+          "reference": "J2",
+          "number": "A11",
+          "function": "RX2+_A11",
+          "electrical_type": "bidirectional"
+        },
+        {
+          "reference": "U2",
+          "number": "19",
+          "function": "RX2P_19",
+          "electrical_type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "code": "8",
+      "name": "J-U SS R2 -",
+      "net_type": "named",
+      "pins": [
+        {
+          "reference": "J2",
+          "number": "A10",
+          "function": "RX2-_A10",
+          "electrical_type": "bidirectional"
+        },
+        {
+          "reference": "U2",
+          "number": "18",
+          "function": "RX2N_18",
+          "electrical_type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "code": "9",
+      "name": "J-U SS T1",
+      "net_type": "named",
+      "pins": [
+        {
+          "reference": "J2",
+          "number": "A2",
+          "function": "TX1+_A2",
+          "electrical_type": "bidirectional"
+        },
+        {
+          "reference": "U2",
+          "number": "17",
+          "function": "TX1P_17",
+          "electrical_type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "code": "10",
+      "name": "J-U SS T1 -",
+      "net_type": "named",
+      "pins": [
+        {
+          "reference": "J2",
+          "number": "A3",
+          "function": "TX1-_A3",
+          "electrical_type": "bidirectional"
+        },
+        {
+          "reference": "U2",
+          "number": "16",
+          "function": "TX1N_16",
+          "electrical_type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "code": "11",
+      "name": "J-U SS T2",
+      "net_type": "named",
+      "pins": [
+        {
+          "reference": "J2",
+          "number": "B2",
+          "function": "TX2+_B2",
+          "electrical_type": "bidirectional"
+        },
+        {
+          "reference": "U2",
+          "number": "21",
+          "function": "TX2P_21",
+          "electrical_type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "code": "12",
+      "name": "J-U SS T2 -",
+      "net_type": "named",
+      "pins": [
+        {
+          "reference": "J2",
+          "number": "B3",
+          "function": "TX2-_B3",
+          "electrical_type": "bidirectional"
+        },
+        {
+          "reference": "U2",
+          "number": "20",
+          "function": "TX2N_20",
+          "electrical_type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "code": "13",
+      "name": "Net-(J2-VBUS_A4)",
+      "net_type": "named",
+      "pins": [
+        {
+          "reference": "J2",
+          "number": "A4",
+          "function": "VBUS_A4_A4",
+          "electrical_type": "power_in"
+        },
+        {
+          "reference": "R3",
+          "number": "2",
+          "function": "",
+          "electrical_type": "passive"
+        }
+      ]
+    },
+    {
+      "code": "14",
+      "name": "SSpeed N",
+      "net_type": "named",
+      "pins": [
+        {
+          "reference": "J1",
+          "number": "6",
+          "function": "SSRX+_6",
+          "electrical_type": "bidirectional"
+        },
+        {
+          "reference": "U2",
+          "number": "9",
+          "function": "RXP_9",
+          "electrical_type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "code": "15",
+      "name": "SSpeed N -",
+      "net_type": "named",
+      "pins": [
+        {
+          "reference": "J1",
+          "number": "5",
+          "function": "SSRX-_5",
+          "electrical_type": "bidirectional"
+        },
+        {
+          "reference": "U2",
+          "number": "10",
+          "function": "RXN_10",
+          "electrical_type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "code": "16",
+      "name": "SSpeed T",
+      "net_type": "named",
+      "pins": [
+        {
+          "reference": "J1",
+          "number": "9",
+          "function": "SSTX+_9",
+          "electrical_type": "bidirectional"
+        },
+        {
+          "reference": "U2",
+          "number": "6",
+          "function": "TXP_6",
+          "electrical_type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "code": "17",
+      "name": "SSpeed T -",
+      "net_type": "named",
+      "pins": [
+        {
+          "reference": "J1",
+          "number": "8",
+          "function": "SSTX-_8",
+          "electrical_type": "bidirectional"
+        },
+        {
+          "reference": "U2",
+          "number": "7",
+          "function": "TXN_7",
+          "electrical_type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "code": "18",
+      "name": "VB Det",
+      "net_type": "named",
+      "pins": [
+        {
+          "reference": "R3",
+          "number": "1",
+          "function": "",
+          "electrical_type": "passive"
+        },
+        {
+          "reference": "U2",
+          "number": "5",
+          "function": "VBUS_DET_5",
+          "electrical_type": "input"
+        }
+      ]
+    },
+    {
+      "code": "19",
+      "name": "unconnected-(J1-GND-Pad4)",
+      "net_type": "unconnected",
+      "pins": [
+        {
+          "reference": "J1",
+          "number": "4",
+          "function": "GND_4",
+          "electrical_type": "power_in"
+        }
+      ]
+    },
+    {
+      "code": "20",
+      "name": "unconnected-(J1-GND_DRAIN-Pad7)",
+      "net_type": "unconnected",
+      "pins": [
+        {
+          "reference": "J1",
+          "number": "7",
+          "function": "GND_DRAIN_7",
+          "electrical_type": "power_in"
+        }
+      ]
+    },
+    {
+      "code": "21",
+      "name": "unconnected-(J1-SHIELD-PadSH1)",
+      "net_type": "unconnected",
+      "pins": [
+        {
+          "reference": "J1",
+          "number": "SH1",
+          "function": "SHIELD_SH1",
+          "electrical_type": "passive"
+        }
+      ]
+    },
+    {
+      "code": "22",
+      "name": "unconnected-(J1-SHIELD__1-PadSH2)",
+      "net_type": "unconnected",
+      "pins": [
+        {
+          "reference": "J1",
+          "number": "SH2",
+          "function": "SHIELD__1_SH2",
+          "electrical_type": "passive"
+        }
+      ]
+    },
+    {
+      "code": "23",
+      "name": "unconnected-(J1-VBUS-Pad1)",
+      "net_type": "unconnected",
+      "pins": [
+        {
+          "reference": "J1",
+          "number": "1",
+          "function": "VBUS_1",
+          "electrical_type": "power_in"
+        }
+      ]
+    },
+    {
+      "code": "24",
+      "name": "unconnected-(J2-D2+-PadB6)",
+      "net_type": "unconnected",
+      "pins": [
+        {
+          "reference": "J2",
+          "number": "B6",
+          "function": "D2+_B6",
+          "electrical_type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "code": "25",
+      "name": "unconnected-(J2-D2--PadB7)",
+      "net_type": "unconnected",
+      "pins": [
+        {
+          "reference": "J2",
+          "number": "B7",
+          "function": "D2-_B7",
+          "electrical_type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "code": "26",
+      "name": "unconnected-(J2-GND_A1-PadA1)",
+      "net_type": "unconnected",
+      "pins": [
+        {
+          "reference": "J2",
+          "number": "A1",
+          "function": "GND_A1_A1",
+          "electrical_type": "power_in"
+        }
+      ]
+    },
+    {
+      "code": "27",
+      "name": "unconnected-(J2-GND_A12-PadA12)",
+      "net_type": "unconnected",
+      "pins": [
+        {
+          "reference": "J2",
+          "number": "A12",
+          "function": "GND_A12_A12",
+          "electrical_type": "power_in"
+        }
+      ]
+    },
+    {
+      "code": "28",
+      "name": "unconnected-(J2-GND_B1-PadB1)",
+      "net_type": "unconnected",
+      "pins": [
+        {
+          "reference": "J2",
+          "number": "B1",
+          "function": "GND_B1_B1",
+          "electrical_type": "power_in"
+        }
+      ]
+    },
+    {
+      "code": "29",
+      "name": "unconnected-(J2-GND_B12-PadB12)",
+      "net_type": "unconnected",
+      "pins": [
+        {
+          "reference": "J2",
+          "number": "B12",
+          "function": "GND_B12_B12",
+          "electrical_type": "power_in"
+        }
+      ]
+    },
+    {
+      "code": "30",
+      "name": "unconnected-(J2-SBU1-PadA8)",
+      "net_type": "unconnected",
+      "pins": [
+        {
+          "reference": "J2",
+          "number": "A8",
+          "function": "SBU1_A8",
+          "electrical_type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "code": "31",
+      "name": "unconnected-(J2-SBU2-PadB8)",
+      "net_type": "unconnected",
+      "pins": [
+        {
+          "reference": "J2",
+          "number": "B8",
+          "function": "SBU2_B8",
+          "electrical_type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "code": "32",
+      "name": "unconnected-(J2-SHIELD1-PadSH1)",
+      "net_type": "unconnected",
+      "pins": [
+        {
+          "reference": "J2",
+          "number": "SH1",
+          "function": "SHIELD1_SH1",
+          "electrical_type": "passive"
+        }
+      ]
+    },
+    {
+      "code": "33",
+      "name": "unconnected-(J2-SHIELD2-PadSH2)",
+      "net_type": "unconnected",
+      "pins": [
+        {
+          "reference": "J2",
+          "number": "SH2",
+          "function": "SHIELD2_SH2",
+          "electrical_type": "passive"
+        }
+      ]
+    },
+    {
+      "code": "34",
+      "name": "unconnected-(J2-SHIELD3-PadSH3)",
+      "net_type": "unconnected",
+      "pins": [
+        {
+          "reference": "J2",
+          "number": "SH3",
+          "function": "SHIELD3_SH3",
+          "electrical_type": "passive"
+        }
+      ]
+    },
+    {
+      "code": "35",
+      "name": "unconnected-(J2-SHIELD4-PadSH4)",
+      "net_type": "unconnected",
+      "pins": [
+        {
+          "reference": "J2",
+          "number": "SH4",
+          "function": "SHIELD4_SH4",
+          "electrical_type": "passive"
+        }
+      ]
+    },
+    {
+      "code": "36",
+      "name": "unconnected-(J2-SHIELD5-PadSH5)",
+      "net_type": "unconnected",
+      "pins": [
+        {
+          "reference": "J2",
+          "number": "SH5",
+          "function": "SHIELD5_SH5",
+          "electrical_type": "passive"
+        }
+      ]
+    },
+    {
+      "code": "37",
+      "name": "unconnected-(J2-SHIELD6-PadSH6)",
+      "net_type": "unconnected",
+      "pins": [
+        {
+          "reference": "J2",
+          "number": "SH6",
+          "function": "SHIELD6_SH6",
+          "electrical_type": "passive"
+        }
+      ]
+    },
+    {
+      "code": "38",
+      "name": "unconnected-(J2-VBUS_A9-PadA9)",
+      "net_type": "unconnected",
+      "pins": [
+        {
+          "reference": "J2",
+          "number": "A9",
+          "function": "VBUS_A9_A9",
+          "electrical_type": "power_in"
+        }
+      ]
+    },
+    {
+      "code": "39",
+      "name": "unconnected-(J2-VBUS_B4-PadB4)",
+      "net_type": "unconnected",
+      "pins": [
+        {
+          "reference": "J2",
+          "number": "B4",
+          "function": "VBUS_B4_B4",
+          "electrical_type": "power_in"
+        }
+      ]
+    },
+    {
+      "code": "40",
+      "name": "unconnected-(J2-VBUS_B9-PadB9)",
+      "net_type": "unconnected",
+      "pins": [
+        {
+          "reference": "J2",
+          "number": "B9",
+          "function": "VBUS_B9_B9",
+          "electrical_type": "power_in"
+        }
+      ]
+    },
+    {
+      "code": "41",
+      "name": "unconnected-(U1-GND-Pad3)",
+      "net_type": "unconnected",
+      "pins": [
+        {
+          "reference": "U1",
+          "number": "3",
+          "function": "GND_3",
+          "electrical_type": "power_in"
+        }
+      ]
+    },
+    {
+      "code": "42",
+      "name": "unconnected-(U1-GND__1-Pad8)",
+      "net_type": "unconnected",
+      "pins": [
+        {
+          "reference": "U1",
+          "number": "8",
+          "function": "GND__1_8",
+          "electrical_type": "power_in"
+        }
+      ]
+    },
+    {
+      "code": "43",
+      "name": "unconnected-(U1-NC_6-Pad6)",
+      "net_type": "unconnected",
+      "pins": [
+        {
+          "reference": "U1",
+          "number": "6",
+          "function": "NC_6_6",
+          "electrical_type": "passive"
+        }
+      ]
+    },
+    {
+      "code": "44",
+      "name": "unconnected-(U1-NC_7-Pad7)",
+      "net_type": "unconnected",
+      "pins": [
+        {
+          "reference": "U1",
+          "number": "7",
+          "function": "NC_7_7",
+          "electrical_type": "passive"
+        }
+      ]
+    },
+    {
+      "code": "45",
+      "name": "unconnected-(U1-NC_9-Pad9)",
+      "net_type": "unconnected",
+      "pins": [
+        {
+          "reference": "U1",
+          "number": "9",
+          "function": "NC_9_9",
+          "electrical_type": "passive"
+        }
+      ]
+    },
+    {
+      "code": "46",
+      "name": "unconnected-(U1-NC_10-Pad10)",
+      "net_type": "unconnected",
+      "pins": [
+        {
+          "reference": "U1",
+          "number": "10",
+          "function": "NC_10_10",
+          "electrical_type": "passive"
+        }
+      ]
+    },
+    {
+      "code": "47",
+      "name": "unconnected-(U2-ADDR-Pad22)",
+      "net_type": "unconnected",
+      "pins": [
+        {
+          "reference": "U2",
+          "number": "22",
+          "function": "ADDR_22",
+          "electrical_type": "input+no_connect"
+        }
+      ]
+    },
+    {
+      "code": "48",
+      "name": "unconnected-(U2-CURRENT_MODE-Pad3)",
+      "net_type": "unconnected",
+      "pins": [
+        {
+          "reference": "U2",
+          "number": "3",
+          "function": "CURRENT_MODE_3",
+          "electrical_type": "input"
+        }
+      ]
+    },
+    {
+      "code": "49",
+      "name": "unconnected-(U2-DIR-Pad11)",
+      "net_type": "unconnected",
+      "pins": [
+        {
+          "reference": "U2",
+          "number": "11",
+          "function": "DIR_11",
+          "electrical_type": "output"
+        }
+      ]
+    },
+    {
+      "code": "50",
+      "name": "unconnected-(U2-EXP_PAD-Pad31)",
+      "net_type": "unconnected",
+      "pins": [
+        {
+          "reference": "U2",
+          "number": "31",
+          "function": "EXP_PAD_31",
+          "electrical_type": "power_in"
+        }
+      ]
+    },
+    {
+      "code": "51",
+      "name": "unconnected-(U2-GND-Pad13)",
+      "net_type": "unconnected",
+      "pins": [
+        {
+          "reference": "U2",
+          "number": "13",
+          "function": "GND_13",
+          "electrical_type": "power_in"
+        }
+      ]
+    },
+    {
+      "code": "52",
+      "name": "unconnected-(U2-GND__1-Pad28)",
+      "net_type": "unconnected",
+      "pins": [
+        {
+          "reference": "U2",
+          "number": "28",
+          "function": "GND__1_28",
+          "electrical_type": "power_in"
+        }
+      ]
+    },
+    {
+      "code": "53",
+      "name": "unconnected-(U2-ID-Pad27)",
+      "net_type": "unconnected",
+      "pins": [
+        {
+          "reference": "U2",
+          "number": "27",
+          "function": "ID_27",
+          "electrical_type": "output"
+        }
+      ]
+    },
+    {
+      "code": "54",
+      "name": "unconnected-(U2-SCL/OUT2-Pad26)",
+      "net_type": "unconnected",
+      "pins": [
+        {
+          "reference": "U2",
+          "number": "26",
+          "function": "SCL/OUT2_26",
+          "electrical_type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "code": "55",
+      "name": "unconnected-(U2-SDA/OUT1-Pad25)",
+      "net_type": "unconnected",
+      "pins": [
+        {
+          "reference": "U2",
+          "number": "25",
+          "function": "SDA/OUT1_25",
+          "electrical_type": "bidirectional"
+        }
+      ]
+    },
+    {
+      "code": "56",
+      "name": "unconnected-(U2-VCC33-Pad8)",
+      "net_type": "unconnected",
+      "pins": [
+        {
+          "reference": "U2",
+          "number": "8",
+          "function": "VCC33_8",
+          "electrical_type": "power_in"
+        }
+      ]
+    },
+    {
+      "code": "57",
+      "name": "unconnected-(U2-VCONN_FAULT_N-Pad24)",
+      "net_type": "unconnected",
+      "pins": [
+        {
+          "reference": "U2",
+          "number": "24",
+          "function": "VCONN_FAULT_N_24",
+          "electrical_type": "output"
+        }
+      ]
+    },
+    {
+      "code": "58",
+      "name": "unconnected-(U2-VDD5-Pad30)",
+      "net_type": "unconnected",
+      "pins": [
+        {
+          "reference": "U2",
+          "number": "30",
+          "function": "VDD5_30",
+          "electrical_type": "power_in"
+        }
+      ]
+    },
+    {
+      "code": "59",
+      "name": "unconnected-(U2-~{INT_N}/OUT3-Pad23)",
+      "net_type": "unconnected",
+      "pins": [
+        {
+          "reference": "U2",
+          "number": "23",
+          "function": "~{INT_N}/OUT3_23",
+          "electrical_type": "output"
+        }
+      ]
+    }
+  ],
+  "pin_mappings": [
+    {
+      "reference": "J1",
+      "pin": "1",
+      "function": "VBUS_1",
+      "electrical_type": "power_in",
+      "schematic_net": "unconnected-(J1-VBUS-Pad1)",
+      "schematic_net_type": "unconnected",
+      "pcb_net": "unconnected-(J1-VBUS-Pad1)",
+      "pcb_net_type": "unconnected",
+      "status": "both_unconnected",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "J1",
+          "pin": "1"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "J1",
+          "pad": "1",
+          "found": true
+        },
+        "comparison": "both_unconnected_by_classification"
+      }
+    },
+    {
+      "reference": "J1",
+      "pin": "2",
+      "function": "D-_2",
+      "electrical_type": "bidirectional",
+      "schematic_net": "ESD -",
+      "schematic_net_type": "named",
+      "pcb_net": "ESD -",
+      "pcb_net_type": "named",
+      "status": "matched",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "J1",
+          "pin": "2"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "J1",
+          "pad": "2",
+          "found": true
+        },
+        "comparison": "exact_net_name_match"
+      }
+    },
+    {
+      "reference": "J1",
+      "pin": "3",
+      "function": "D+_3",
+      "electrical_type": "bidirectional",
+      "schematic_net": "ESD +",
+      "schematic_net_type": "named",
+      "pcb_net": "ESD +",
+      "pcb_net_type": "named",
+      "status": "matched",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "J1",
+          "pin": "3"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "J1",
+          "pad": "3",
+          "found": true
+        },
+        "comparison": "exact_net_name_match"
+      }
+    },
+    {
+      "reference": "J1",
+      "pin": "4",
+      "function": "GND_4",
+      "electrical_type": "power_in",
+      "schematic_net": "unconnected-(J1-GND-Pad4)",
+      "schematic_net_type": "unconnected",
+      "pcb_net": "unconnected-(J1-GND-Pad4)",
+      "pcb_net_type": "unconnected",
+      "status": "both_unconnected",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "J1",
+          "pin": "4"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "J1",
+          "pad": "4",
+          "found": true
+        },
+        "comparison": "both_unconnected_by_classification"
+      }
+    },
+    {
+      "reference": "J1",
+      "pin": "5",
+      "function": "SSRX-_5",
+      "electrical_type": "bidirectional",
+      "schematic_net": "SSpeed N -",
+      "schematic_net_type": "named",
+      "pcb_net": "SSpeed N -",
+      "pcb_net_type": "named",
+      "status": "matched",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "J1",
+          "pin": "5"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "J1",
+          "pad": "5",
+          "found": true
+        },
+        "comparison": "exact_net_name_match"
+      }
+    },
+    {
+      "reference": "J1",
+      "pin": "6",
+      "function": "SSRX+_6",
+      "electrical_type": "bidirectional",
+      "schematic_net": "SSpeed N",
+      "schematic_net_type": "named",
+      "pcb_net": "SSpeed N",
+      "pcb_net_type": "named",
+      "status": "matched",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "J1",
+          "pin": "6"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "J1",
+          "pad": "6",
+          "found": true
+        },
+        "comparison": "exact_net_name_match"
+      }
+    },
+    {
+      "reference": "J1",
+      "pin": "7",
+      "function": "GND_DRAIN_7",
+      "electrical_type": "power_in",
+      "schematic_net": "unconnected-(J1-GND_DRAIN-Pad7)",
+      "schematic_net_type": "unconnected",
+      "pcb_net": "unconnected-(J1-GND_DRAIN-Pad7)",
+      "pcb_net_type": "unconnected",
+      "status": "both_unconnected",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "J1",
+          "pin": "7"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "J1",
+          "pad": "7",
+          "found": true
+        },
+        "comparison": "both_unconnected_by_classification"
+      }
+    },
+    {
+      "reference": "J1",
+      "pin": "8",
+      "function": "SSTX-_8",
+      "electrical_type": "bidirectional",
+      "schematic_net": "SSpeed T -",
+      "schematic_net_type": "named",
+      "pcb_net": "SSpeed T -",
+      "pcb_net_type": "named",
+      "status": "matched",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "J1",
+          "pin": "8"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "J1",
+          "pad": "8",
+          "found": true
+        },
+        "comparison": "exact_net_name_match"
+      }
+    },
+    {
+      "reference": "J1",
+      "pin": "9",
+      "function": "SSTX+_9",
+      "electrical_type": "bidirectional",
+      "schematic_net": "SSpeed T",
+      "schematic_net_type": "named",
+      "pcb_net": "SSpeed T",
+      "pcb_net_type": "named",
+      "status": "matched",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "J1",
+          "pin": "9"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "J1",
+          "pad": "9",
+          "found": true
+        },
+        "comparison": "exact_net_name_match"
+      }
+    },
+    {
+      "reference": "J1",
+      "pin": "SH1",
+      "function": "SHIELD_SH1",
+      "electrical_type": "passive",
+      "schematic_net": "unconnected-(J1-SHIELD-PadSH1)",
+      "schematic_net_type": "unconnected",
+      "pcb_net": "unconnected-(J1-SHIELD-PadSH1)",
+      "pcb_net_type": "unconnected",
+      "status": "both_unconnected",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "J1",
+          "pin": "SH1"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "J1",
+          "pad": "SH1",
+          "found": true
+        },
+        "comparison": "both_unconnected_by_classification"
+      }
+    },
+    {
+      "reference": "J1",
+      "pin": "SH2",
+      "function": "SHIELD__1_SH2",
+      "electrical_type": "passive",
+      "schematic_net": "unconnected-(J1-SHIELD__1-PadSH2)",
+      "schematic_net_type": "unconnected",
+      "pcb_net": "unconnected-(J1-SHIELD__1-PadSH2)",
+      "pcb_net_type": "unconnected",
+      "status": "both_unconnected",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "J1",
+          "pin": "SH2"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "J1",
+          "pad": "SH2",
+          "found": true
+        },
+        "comparison": "both_unconnected_by_classification"
+      }
+    },
+    {
+      "reference": "J2",
+      "pin": "A1",
+      "function": "GND_A1_A1",
+      "electrical_type": "power_in",
+      "schematic_net": "unconnected-(J2-GND_A1-PadA1)",
+      "schematic_net_type": "unconnected",
+      "pcb_net": "unconnected-(J2-GND_A1-PadA1)",
+      "pcb_net_type": "unconnected",
+      "status": "both_unconnected",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "J2",
+          "pin": "A1"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "J2",
+          "pad": "A1",
+          "found": true
+        },
+        "comparison": "both_unconnected_by_classification"
+      }
+    },
+    {
+      "reference": "J2",
+      "pin": "A10",
+      "function": "RX2-_A10",
+      "electrical_type": "bidirectional",
+      "schematic_net": "J-U SS R2 -",
+      "schematic_net_type": "named",
+      "pcb_net": "J-U SS R2 -",
+      "pcb_net_type": "named",
+      "status": "matched",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "J2",
+          "pin": "A10"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "J2",
+          "pad": "A10",
+          "found": true
+        },
+        "comparison": "exact_net_name_match"
+      }
+    },
+    {
+      "reference": "J2",
+      "pin": "A11",
+      "function": "RX2+_A11",
+      "electrical_type": "bidirectional",
+      "schematic_net": "J-U SS R2",
+      "schematic_net_type": "named",
+      "pcb_net": "J-U SS R2",
+      "pcb_net_type": "named",
+      "status": "matched",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "J2",
+          "pin": "A11"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "J2",
+          "pad": "A11",
+          "found": true
+        },
+        "comparison": "exact_net_name_match"
+      }
+    },
+    {
+      "reference": "J2",
+      "pin": "A12",
+      "function": "GND_A12_A12",
+      "electrical_type": "power_in",
+      "schematic_net": "unconnected-(J2-GND_A12-PadA12)",
+      "schematic_net_type": "unconnected",
+      "pcb_net": "unconnected-(J2-GND_A12-PadA12)",
+      "pcb_net_type": "unconnected",
+      "status": "both_unconnected",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "J2",
+          "pin": "A12"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "J2",
+          "pad": "A12",
+          "found": true
+        },
+        "comparison": "both_unconnected_by_classification"
+      }
+    },
+    {
+      "reference": "J2",
+      "pin": "A2",
+      "function": "TX1+_A2",
+      "electrical_type": "bidirectional",
+      "schematic_net": "J-U SS T1",
+      "schematic_net_type": "named",
+      "pcb_net": "J-U SS T1",
+      "pcb_net_type": "named",
+      "status": "matched",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "J2",
+          "pin": "A2"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "J2",
+          "pad": "A2",
+          "found": true
+        },
+        "comparison": "exact_net_name_match"
+      }
+    },
+    {
+      "reference": "J2",
+      "pin": "A3",
+      "function": "TX1-_A3",
+      "electrical_type": "bidirectional",
+      "schematic_net": "J-U SS T1 -",
+      "schematic_net_type": "named",
+      "pcb_net": "J-U SS T1 -",
+      "pcb_net_type": "named",
+      "status": "matched",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "J2",
+          "pin": "A3"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "J2",
+          "pad": "A3",
+          "found": true
+        },
+        "comparison": "exact_net_name_match"
+      }
+    },
+    {
+      "reference": "J2",
+      "pin": "A4",
+      "function": "VBUS_A4_A4",
+      "electrical_type": "power_in",
+      "schematic_net": "Net-(J2-VBUS_A4)",
+      "schematic_net_type": "named",
+      "pcb_net": "Net-(J2-VBUS_A4)",
+      "pcb_net_type": "named",
+      "status": "matched",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "J2",
+          "pin": "A4"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "J2",
+          "pad": "A4",
+          "found": true
+        },
+        "comparison": "exact_net_name_match"
+      }
+    },
+    {
+      "reference": "J2",
+      "pin": "A5",
+      "function": "CC1_A5",
+      "electrical_type": "bidirectional",
+      "schematic_net": "CC conn",
+      "schematic_net_type": "named",
+      "pcb_net": "CC conn",
+      "pcb_net_type": "named",
+      "status": "matched",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "J2",
+          "pin": "A5"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "J2",
+          "pad": "A5",
+          "found": true
+        },
+        "comparison": "exact_net_name_match"
+      }
+    },
+    {
+      "reference": "J2",
+      "pin": "A6",
+      "function": "D1+_A6",
+      "electrical_type": "bidirectional",
+      "schematic_net": "ESD +",
+      "schematic_net_type": "named",
+      "pcb_net": "ESD +",
+      "pcb_net_type": "named",
+      "status": "matched",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "J2",
+          "pin": "A6"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "J2",
+          "pad": "A6",
+          "found": true
+        },
+        "comparison": "exact_net_name_match"
+      }
+    },
+    {
+      "reference": "J2",
+      "pin": "A7",
+      "function": "D1-_A7",
+      "electrical_type": "bidirectional",
+      "schematic_net": "ESD -",
+      "schematic_net_type": "named",
+      "pcb_net": "ESD -",
+      "pcb_net_type": "named",
+      "status": "matched",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "J2",
+          "pin": "A7"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "J2",
+          "pad": "A7",
+          "found": true
+        },
+        "comparison": "exact_net_name_match"
+      }
+    },
+    {
+      "reference": "J2",
+      "pin": "A8",
+      "function": "SBU1_A8",
+      "electrical_type": "bidirectional",
+      "schematic_net": "unconnected-(J2-SBU1-PadA8)",
+      "schematic_net_type": "unconnected",
+      "pcb_net": "unconnected-(J2-SBU1-PadA8)",
+      "pcb_net_type": "unconnected",
+      "status": "both_unconnected",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "J2",
+          "pin": "A8"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "J2",
+          "pad": "A8",
+          "found": true
+        },
+        "comparison": "both_unconnected_by_classification"
+      }
+    },
+    {
+      "reference": "J2",
+      "pin": "A9",
+      "function": "VBUS_A9_A9",
+      "electrical_type": "power_in",
+      "schematic_net": "unconnected-(J2-VBUS_A9-PadA9)",
+      "schematic_net_type": "unconnected",
+      "pcb_net": "unconnected-(J2-VBUS_A9-PadA9)",
+      "pcb_net_type": "unconnected",
+      "status": "both_unconnected",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "J2",
+          "pin": "A9"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "J2",
+          "pad": "A9",
+          "found": true
+        },
+        "comparison": "both_unconnected_by_classification"
+      }
+    },
+    {
+      "reference": "J2",
+      "pin": "B1",
+      "function": "GND_B1_B1",
+      "electrical_type": "power_in",
+      "schematic_net": "unconnected-(J2-GND_B1-PadB1)",
+      "schematic_net_type": "unconnected",
+      "pcb_net": "unconnected-(J2-GND_B1-PadB1)",
+      "pcb_net_type": "unconnected",
+      "status": "both_unconnected",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "J2",
+          "pin": "B1"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "J2",
+          "pad": "B1",
+          "found": true
+        },
+        "comparison": "both_unconnected_by_classification"
+      }
+    },
+    {
+      "reference": "J2",
+      "pin": "B10",
+      "function": "RX1-_B10",
+      "electrical_type": "bidirectional",
+      "schematic_net": "J-U SS R -",
+      "schematic_net_type": "named",
+      "pcb_net": "J-U SS R -",
+      "pcb_net_type": "named",
+      "status": "matched",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "J2",
+          "pin": "B10"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "J2",
+          "pad": "B10",
+          "found": true
+        },
+        "comparison": "exact_net_name_match"
+      }
+    },
+    {
+      "reference": "J2",
+      "pin": "B11",
+      "function": "RX1+_B11",
+      "electrical_type": "bidirectional",
+      "schematic_net": "J-U SS R",
+      "schematic_net_type": "named",
+      "pcb_net": "J-U SS R",
+      "pcb_net_type": "named",
+      "status": "matched",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "J2",
+          "pin": "B11"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "J2",
+          "pad": "B11",
+          "found": true
+        },
+        "comparison": "exact_net_name_match"
+      }
+    },
+    {
+      "reference": "J2",
+      "pin": "B12",
+      "function": "GND_B12_B12",
+      "electrical_type": "power_in",
+      "schematic_net": "unconnected-(J2-GND_B12-PadB12)",
+      "schematic_net_type": "unconnected",
+      "pcb_net": "unconnected-(J2-GND_B12-PadB12)",
+      "pcb_net_type": "unconnected",
+      "status": "both_unconnected",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "J2",
+          "pin": "B12"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "J2",
+          "pad": "B12",
+          "found": true
+        },
+        "comparison": "both_unconnected_by_classification"
+      }
+    },
+    {
+      "reference": "J2",
+      "pin": "B2",
+      "function": "TX2+_B2",
+      "electrical_type": "bidirectional",
+      "schematic_net": "J-U SS T2",
+      "schematic_net_type": "named",
+      "pcb_net": "J-U SS T2",
+      "pcb_net_type": "named",
+      "status": "matched",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "J2",
+          "pin": "B2"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "J2",
+          "pad": "B2",
+          "found": true
+        },
+        "comparison": "exact_net_name_match"
+      }
+    },
+    {
+      "reference": "J2",
+      "pin": "B3",
+      "function": "TX2-_B3",
+      "electrical_type": "bidirectional",
+      "schematic_net": "J-U SS T2 -",
+      "schematic_net_type": "named",
+      "pcb_net": "J-U SS T2 -",
+      "pcb_net_type": "named",
+      "status": "matched",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "J2",
+          "pin": "B3"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "J2",
+          "pad": "B3",
+          "found": true
+        },
+        "comparison": "exact_net_name_match"
+      }
+    },
+    {
+      "reference": "J2",
+      "pin": "B4",
+      "function": "VBUS_B4_B4",
+      "electrical_type": "power_in",
+      "schematic_net": "unconnected-(J2-VBUS_B4-PadB4)",
+      "schematic_net_type": "unconnected",
+      "pcb_net": "unconnected-(J2-VBUS_B4-PadB4)",
+      "pcb_net_type": "unconnected",
+      "status": "both_unconnected",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "J2",
+          "pin": "B4"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "J2",
+          "pad": "B4",
+          "found": true
+        },
+        "comparison": "both_unconnected_by_classification"
+      }
+    },
+    {
+      "reference": "J2",
+      "pin": "B5",
+      "function": "CC2_B5",
+      "electrical_type": "bidirectional",
+      "schematic_net": "CC conn",
+      "schematic_net_type": "named",
+      "pcb_net": "CC conn",
+      "pcb_net_type": "named",
+      "status": "matched",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "J2",
+          "pin": "B5"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "J2",
+          "pad": "B5",
+          "found": true
+        },
+        "comparison": "exact_net_name_match"
+      }
+    },
+    {
+      "reference": "J2",
+      "pin": "B6",
+      "function": "D2+_B6",
+      "electrical_type": "bidirectional",
+      "schematic_net": "unconnected-(J2-D2+-PadB6)",
+      "schematic_net_type": "unconnected",
+      "pcb_net": "unconnected-(J2-D2+-PadB6)",
+      "pcb_net_type": "unconnected",
+      "status": "both_unconnected",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "J2",
+          "pin": "B6"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "J2",
+          "pad": "B6",
+          "found": true
+        },
+        "comparison": "both_unconnected_by_classification"
+      }
+    },
+    {
+      "reference": "J2",
+      "pin": "B7",
+      "function": "D2-_B7",
+      "electrical_type": "bidirectional",
+      "schematic_net": "unconnected-(J2-D2--PadB7)",
+      "schematic_net_type": "unconnected",
+      "pcb_net": "unconnected-(J2-D2--PadB7)",
+      "pcb_net_type": "unconnected",
+      "status": "both_unconnected",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "J2",
+          "pin": "B7"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "J2",
+          "pad": "B7",
+          "found": true
+        },
+        "comparison": "both_unconnected_by_classification"
+      }
+    },
+    {
+      "reference": "J2",
+      "pin": "B8",
+      "function": "SBU2_B8",
+      "electrical_type": "bidirectional",
+      "schematic_net": "unconnected-(J2-SBU2-PadB8)",
+      "schematic_net_type": "unconnected",
+      "pcb_net": "unconnected-(J2-SBU2-PadB8)",
+      "pcb_net_type": "unconnected",
+      "status": "both_unconnected",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "J2",
+          "pin": "B8"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "J2",
+          "pad": "B8",
+          "found": true
+        },
+        "comparison": "both_unconnected_by_classification"
+      }
+    },
+    {
+      "reference": "J2",
+      "pin": "B9",
+      "function": "VBUS_B9_B9",
+      "electrical_type": "power_in",
+      "schematic_net": "unconnected-(J2-VBUS_B9-PadB9)",
+      "schematic_net_type": "unconnected",
+      "pcb_net": "unconnected-(J2-VBUS_B9-PadB9)",
+      "pcb_net_type": "unconnected",
+      "status": "both_unconnected",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "J2",
+          "pin": "B9"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "J2",
+          "pad": "B9",
+          "found": true
+        },
+        "comparison": "both_unconnected_by_classification"
+      }
+    },
+    {
+      "reference": "J2",
+      "pin": "SH1",
+      "function": "SHIELD1_SH1",
+      "electrical_type": "passive",
+      "schematic_net": "unconnected-(J2-SHIELD1-PadSH1)",
+      "schematic_net_type": "unconnected",
+      "pcb_net": "unconnected-(J2-SHIELD1-PadSH1)",
+      "pcb_net_type": "unconnected",
+      "status": "both_unconnected",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "J2",
+          "pin": "SH1"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "J2",
+          "pad": "SH1",
+          "found": true
+        },
+        "comparison": "both_unconnected_by_classification"
+      }
+    },
+    {
+      "reference": "J2",
+      "pin": "SH2",
+      "function": "SHIELD2_SH2",
+      "electrical_type": "passive",
+      "schematic_net": "unconnected-(J2-SHIELD2-PadSH2)",
+      "schematic_net_type": "unconnected",
+      "pcb_net": "unconnected-(J2-SHIELD2-PadSH2)",
+      "pcb_net_type": "unconnected",
+      "status": "both_unconnected",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "J2",
+          "pin": "SH2"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "J2",
+          "pad": "SH2",
+          "found": true
+        },
+        "comparison": "both_unconnected_by_classification"
+      }
+    },
+    {
+      "reference": "J2",
+      "pin": "SH3",
+      "function": "SHIELD3_SH3",
+      "electrical_type": "passive",
+      "schematic_net": "unconnected-(J2-SHIELD3-PadSH3)",
+      "schematic_net_type": "unconnected",
+      "pcb_net": "unconnected-(J2-SHIELD3-PadSH3)",
+      "pcb_net_type": "unconnected",
+      "status": "both_unconnected",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "J2",
+          "pin": "SH3"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "J2",
+          "pad": "SH3",
+          "found": true
+        },
+        "comparison": "both_unconnected_by_classification"
+      }
+    },
+    {
+      "reference": "J2",
+      "pin": "SH4",
+      "function": "SHIELD4_SH4",
+      "electrical_type": "passive",
+      "schematic_net": "unconnected-(J2-SHIELD4-PadSH4)",
+      "schematic_net_type": "unconnected",
+      "pcb_net": "unconnected-(J2-SHIELD4-PadSH4)",
+      "pcb_net_type": "unconnected",
+      "status": "both_unconnected",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "J2",
+          "pin": "SH4"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "J2",
+          "pad": "SH4",
+          "found": true
+        },
+        "comparison": "both_unconnected_by_classification"
+      }
+    },
+    {
+      "reference": "J2",
+      "pin": "SH5",
+      "function": "SHIELD5_SH5",
+      "electrical_type": "passive",
+      "schematic_net": "unconnected-(J2-SHIELD5-PadSH5)",
+      "schematic_net_type": "unconnected",
+      "pcb_net": "unconnected-(J2-SHIELD5-PadSH5)",
+      "pcb_net_type": "unconnected",
+      "status": "both_unconnected",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "J2",
+          "pin": "SH5"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "J2",
+          "pad": "SH5",
+          "found": true
+        },
+        "comparison": "both_unconnected_by_classification"
+      }
+    },
+    {
+      "reference": "J2",
+      "pin": "SH6",
+      "function": "SHIELD6_SH6",
+      "electrical_type": "passive",
+      "schematic_net": "unconnected-(J2-SHIELD6-PadSH6)",
+      "schematic_net_type": "unconnected",
+      "pcb_net": "unconnected-(J2-SHIELD6-PadSH6)",
+      "pcb_net_type": "unconnected",
+      "status": "both_unconnected",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "J2",
+          "pin": "SH6"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "J2",
+          "pad": "SH6",
+          "found": true
+        },
+        "comparison": "both_unconnected_by_classification"
+      }
+    },
+    {
+      "reference": "R3",
+      "pin": "1",
+      "function": "",
+      "electrical_type": "passive",
+      "schematic_net": "VB Det",
+      "schematic_net_type": "named",
+      "pcb_net": "VB Det",
+      "pcb_net_type": "named",
+      "status": "matched",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "R3",
+          "pin": "1"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "R3",
+          "pad": "1",
+          "found": true
+        },
+        "comparison": "exact_net_name_match"
+      }
+    },
+    {
+      "reference": "R3",
+      "pin": "2",
+      "function": "",
+      "electrical_type": "passive",
+      "schematic_net": "Net-(J2-VBUS_A4)",
+      "schematic_net_type": "named",
+      "pcb_net": "Net-(J2-VBUS_A4)",
+      "pcb_net_type": "named",
+      "status": "matched",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "R3",
+          "pin": "2"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "R3",
+          "pad": "2",
+          "found": true
+        },
+        "comparison": "exact_net_name_match"
+      }
+    },
+    {
+      "reference": "U1",
+      "pin": "1",
+      "function": "D1+_1",
+      "electrical_type": "bidirectional",
+      "schematic_net": "ESD +",
+      "schematic_net_type": "named",
+      "pcb_net": "ESD +",
+      "pcb_net_type": "named",
+      "status": "matched",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "U1",
+          "pin": "1"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "U1",
+          "pad": "1",
+          "found": true
+        },
+        "comparison": "exact_net_name_match"
+      }
+    },
+    {
+      "reference": "U1",
+      "pin": "10",
+      "function": "NC_10_10",
+      "electrical_type": "passive",
+      "schematic_net": "unconnected-(U1-NC_10-Pad10)",
+      "schematic_net_type": "unconnected",
+      "pcb_net": "unconnected-(U1-NC_10-Pad10)",
+      "pcb_net_type": "unconnected",
+      "status": "both_unconnected",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "U1",
+          "pin": "10"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "U1",
+          "pad": "10",
+          "found": true
+        },
+        "comparison": "both_unconnected_by_classification"
+      }
+    },
+    {
+      "reference": "U1",
+      "pin": "2",
+      "function": "D1-_2",
+      "electrical_type": "bidirectional",
+      "schematic_net": "ESD -",
+      "schematic_net_type": "named",
+      "pcb_net": "ESD -",
+      "pcb_net_type": "named",
+      "status": "matched",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "U1",
+          "pin": "2"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "U1",
+          "pad": "2",
+          "found": true
+        },
+        "comparison": "exact_net_name_match"
+      }
+    },
+    {
+      "reference": "U1",
+      "pin": "3",
+      "function": "GND_3",
+      "electrical_type": "power_in",
+      "schematic_net": "unconnected-(U1-GND-Pad3)",
+      "schematic_net_type": "unconnected",
+      "pcb_net": "unconnected-(U1-GND-Pad3)",
+      "pcb_net_type": "unconnected",
+      "status": "both_unconnected",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "U1",
+          "pin": "3"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "U1",
+          "pad": "3",
+          "found": true
+        },
+        "comparison": "both_unconnected_by_classification"
+      }
+    },
+    {
+      "reference": "U1",
+      "pin": "4",
+      "function": "D2+_4",
+      "electrical_type": "bidirectional",
+      "schematic_net": "ESD +",
+      "schematic_net_type": "named",
+      "pcb_net": "ESD +",
+      "pcb_net_type": "named",
+      "status": "matched",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "U1",
+          "pin": "4"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "U1",
+          "pad": "4",
+          "found": true
+        },
+        "comparison": "exact_net_name_match"
+      }
+    },
+    {
+      "reference": "U1",
+      "pin": "5",
+      "function": "D2-_5",
+      "electrical_type": "bidirectional",
+      "schematic_net": "ESD -",
+      "schematic_net_type": "named",
+      "pcb_net": "ESD -",
+      "pcb_net_type": "named",
+      "status": "matched",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "U1",
+          "pin": "5"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "U1",
+          "pad": "5",
+          "found": true
+        },
+        "comparison": "exact_net_name_match"
+      }
+    },
+    {
+      "reference": "U1",
+      "pin": "6",
+      "function": "NC_6_6",
+      "electrical_type": "passive",
+      "schematic_net": "unconnected-(U1-NC_6-Pad6)",
+      "schematic_net_type": "unconnected",
+      "pcb_net": "unconnected-(U1-NC_6-Pad6)",
+      "pcb_net_type": "unconnected",
+      "status": "both_unconnected",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "U1",
+          "pin": "6"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "U1",
+          "pad": "6",
+          "found": true
+        },
+        "comparison": "both_unconnected_by_classification"
+      }
+    },
+    {
+      "reference": "U1",
+      "pin": "7",
+      "function": "NC_7_7",
+      "electrical_type": "passive",
+      "schematic_net": "unconnected-(U1-NC_7-Pad7)",
+      "schematic_net_type": "unconnected",
+      "pcb_net": "unconnected-(U1-NC_7-Pad7)",
+      "pcb_net_type": "unconnected",
+      "status": "both_unconnected",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "U1",
+          "pin": "7"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "U1",
+          "pad": "7",
+          "found": true
+        },
+        "comparison": "both_unconnected_by_classification"
+      }
+    },
+    {
+      "reference": "U1",
+      "pin": "8",
+      "function": "GND__1_8",
+      "electrical_type": "power_in",
+      "schematic_net": "unconnected-(U1-GND__1-Pad8)",
+      "schematic_net_type": "unconnected",
+      "pcb_net": "unconnected-(U1-GND__1-Pad8)",
+      "pcb_net_type": "unconnected",
+      "status": "both_unconnected",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "U1",
+          "pin": "8"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "U1",
+          "pad": "8",
+          "found": true
+        },
+        "comparison": "both_unconnected_by_classification"
+      }
+    },
+    {
+      "reference": "U1",
+      "pin": "9",
+      "function": "NC_9_9",
+      "electrical_type": "passive",
+      "schematic_net": "unconnected-(U1-NC_9-Pad9)",
+      "schematic_net_type": "unconnected",
+      "pcb_net": "unconnected-(U1-NC_9-Pad9)",
+      "pcb_net_type": "unconnected",
+      "status": "both_unconnected",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "U1",
+          "pin": "9"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "U1",
+          "pad": "9",
+          "found": true
+        },
+        "comparison": "both_unconnected_by_classification"
+      }
+    },
+    {
+      "reference": "U2",
+      "pin": "1",
+      "function": "CC2_1",
+      "electrical_type": "bidirectional",
+      "schematic_net": "CC conn",
+      "schematic_net_type": "named",
+      "pcb_net": "CC conn",
+      "pcb_net_type": "named",
+      "status": "matched",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "U2",
+          "pin": "1"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "U2",
+          "pad": "1",
+          "found": true
+        },
+        "comparison": "exact_net_name_match"
+      }
+    },
+    {
+      "reference": "U2",
+      "pin": "10",
+      "function": "RXN_10",
+      "electrical_type": "bidirectional",
+      "schematic_net": "SSpeed N -",
+      "schematic_net_type": "named",
+      "pcb_net": "SSpeed N -",
+      "pcb_net_type": "named",
+      "status": "matched",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "U2",
+          "pin": "10"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "U2",
+          "pad": "10",
+          "found": true
+        },
+        "comparison": "exact_net_name_match"
+      }
+    },
+    {
+      "reference": "U2",
+      "pin": "11",
+      "function": "DIR_11",
+      "electrical_type": "output",
+      "schematic_net": "unconnected-(U2-DIR-Pad11)",
+      "schematic_net_type": "unconnected",
+      "pcb_net": "unconnected-(U2-DIR-Pad11)",
+      "pcb_net_type": "unconnected",
+      "status": "both_unconnected",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "U2",
+          "pin": "11"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "U2",
+          "pad": "11",
+          "found": true
+        },
+        "comparison": "both_unconnected_by_classification"
+      }
+    },
+    {
+      "reference": "U2",
+      "pin": "12",
+      "function": "~{ENN_MUX}_12",
+      "electrical_type": "input",
+      "schematic_net": "GND",
+      "schematic_net_type": "named",
+      "pcb_net": "GND",
+      "pcb_net_type": "named",
+      "status": "matched",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "U2",
+          "pin": "12"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "U2",
+          "pad": "12",
+          "found": true
+        },
+        "comparison": "exact_net_name_match"
+      }
+    },
+    {
+      "reference": "U2",
+      "pin": "13",
+      "function": "GND_13",
+      "electrical_type": "power_in",
+      "schematic_net": "unconnected-(U2-GND-Pad13)",
+      "schematic_net_type": "unconnected",
+      "pcb_net": "unconnected-(U2-GND-Pad13)",
+      "pcb_net_type": "unconnected",
+      "status": "both_unconnected",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "U2",
+          "pin": "13"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "U2",
+          "pad": "13",
+          "found": true
+        },
+        "comparison": "both_unconnected_by_classification"
+      }
+    },
+    {
+      "reference": "U2",
+      "pin": "14",
+      "function": "RX1N_14",
+      "electrical_type": "bidirectional",
+      "schematic_net": "J-U SS R -",
+      "schematic_net_type": "named",
+      "pcb_net": "J-U SS R -",
+      "pcb_net_type": "named",
+      "status": "matched",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "U2",
+          "pin": "14"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "U2",
+          "pad": "14",
+          "found": true
+        },
+        "comparison": "exact_net_name_match"
+      }
+    },
+    {
+      "reference": "U2",
+      "pin": "15",
+      "function": "RX1P_15",
+      "electrical_type": "bidirectional",
+      "schematic_net": "J-U SS R",
+      "schematic_net_type": "named",
+      "pcb_net": "J-U SS R",
+      "pcb_net_type": "named",
+      "status": "matched",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "U2",
+          "pin": "15"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "U2",
+          "pad": "15",
+          "found": true
+        },
+        "comparison": "exact_net_name_match"
+      }
+    },
+    {
+      "reference": "U2",
+      "pin": "16",
+      "function": "TX1N_16",
+      "electrical_type": "bidirectional",
+      "schematic_net": "J-U SS T1 -",
+      "schematic_net_type": "named",
+      "pcb_net": "J-U SS T1 -",
+      "pcb_net_type": "named",
+      "status": "matched",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "U2",
+          "pin": "16"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "U2",
+          "pad": "16",
+          "found": true
+        },
+        "comparison": "exact_net_name_match"
+      }
+    },
+    {
+      "reference": "U2",
+      "pin": "17",
+      "function": "TX1P_17",
+      "electrical_type": "bidirectional",
+      "schematic_net": "J-U SS T1",
+      "schematic_net_type": "named",
+      "pcb_net": "J-U SS T1",
+      "pcb_net_type": "named",
+      "status": "matched",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "U2",
+          "pin": "17"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "U2",
+          "pad": "17",
+          "found": true
+        },
+        "comparison": "exact_net_name_match"
+      }
+    },
+    {
+      "reference": "U2",
+      "pin": "18",
+      "function": "RX2N_18",
+      "electrical_type": "bidirectional",
+      "schematic_net": "J-U SS R2 -",
+      "schematic_net_type": "named",
+      "pcb_net": "J-U SS R2 -",
+      "pcb_net_type": "named",
+      "status": "matched",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "U2",
+          "pin": "18"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "U2",
+          "pad": "18",
+          "found": true
+        },
+        "comparison": "exact_net_name_match"
+      }
+    },
+    {
+      "reference": "U2",
+      "pin": "19",
+      "function": "RX2P_19",
+      "electrical_type": "bidirectional",
+      "schematic_net": "J-U SS R2",
+      "schematic_net_type": "named",
+      "pcb_net": "J-U SS R2",
+      "pcb_net_type": "named",
+      "status": "matched",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "U2",
+          "pin": "19"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "U2",
+          "pad": "19",
+          "found": true
+        },
+        "comparison": "exact_net_name_match"
+      }
+    },
+    {
+      "reference": "U2",
+      "pin": "2",
+      "function": "CC1_2",
+      "electrical_type": "bidirectional",
+      "schematic_net": "CC conn",
+      "schematic_net_type": "named",
+      "pcb_net": "CC conn",
+      "pcb_net_type": "named",
+      "status": "matched",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "U2",
+          "pin": "2"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "U2",
+          "pad": "2",
+          "found": true
+        },
+        "comparison": "exact_net_name_match"
+      }
+    },
+    {
+      "reference": "U2",
+      "pin": "20",
+      "function": "TX2N_20",
+      "electrical_type": "bidirectional",
+      "schematic_net": "J-U SS T2 -",
+      "schematic_net_type": "named",
+      "pcb_net": "J-U SS T2 -",
+      "pcb_net_type": "named",
+      "status": "matched",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "U2",
+          "pin": "20"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "U2",
+          "pad": "20",
+          "found": true
+        },
+        "comparison": "exact_net_name_match"
+      }
+    },
+    {
+      "reference": "U2",
+      "pin": "21",
+      "function": "TX2P_21",
+      "electrical_type": "bidirectional",
+      "schematic_net": "J-U SS T2",
+      "schematic_net_type": "named",
+      "pcb_net": "J-U SS T2",
+      "pcb_net_type": "named",
+      "status": "matched",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "U2",
+          "pin": "21"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "U2",
+          "pad": "21",
+          "found": true
+        },
+        "comparison": "exact_net_name_match"
+      }
+    },
+    {
+      "reference": "U2",
+      "pin": "22",
+      "function": "ADDR_22",
+      "electrical_type": "input+no_connect",
+      "schematic_net": "unconnected-(U2-ADDR-Pad22)",
+      "schematic_net_type": "unconnected",
+      "pcb_net": "unconnected-(U2-ADDR-Pad22)",
+      "pcb_net_type": "unconnected",
+      "status": "both_unconnected",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "U2",
+          "pin": "22"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "U2",
+          "pad": "22",
+          "found": true
+        },
+        "comparison": "both_unconnected_by_classification"
+      }
+    },
+    {
+      "reference": "U2",
+      "pin": "23",
+      "function": "~{INT_N}/OUT3_23",
+      "electrical_type": "output",
+      "schematic_net": "unconnected-(U2-~{INT_N}/OUT3-Pad23)",
+      "schematic_net_type": "unconnected",
+      "pcb_net": "unconnected-(U2-~{INT_N}{slash}OUT3-Pad23)",
+      "pcb_net_type": "unconnected",
+      "status": "both_unconnected",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "U2",
+          "pin": "23"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "U2",
+          "pad": "23",
+          "found": true
+        },
+        "comparison": "both_unconnected_by_classification"
+      }
+    },
+    {
+      "reference": "U2",
+      "pin": "24",
+      "function": "VCONN_FAULT_N_24",
+      "electrical_type": "output",
+      "schematic_net": "unconnected-(U2-VCONN_FAULT_N-Pad24)",
+      "schematic_net_type": "unconnected",
+      "pcb_net": "unconnected-(U2-VCONN_FAULT_N-Pad24)",
+      "pcb_net_type": "unconnected",
+      "status": "both_unconnected",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "U2",
+          "pin": "24"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "U2",
+          "pad": "24",
+          "found": true
+        },
+        "comparison": "both_unconnected_by_classification"
+      }
+    },
+    {
+      "reference": "U2",
+      "pin": "25",
+      "function": "SDA/OUT1_25",
+      "electrical_type": "bidirectional",
+      "schematic_net": "unconnected-(U2-SDA/OUT1-Pad25)",
+      "schematic_net_type": "unconnected",
+      "pcb_net": "unconnected-(U2-SDA{slash}OUT1-Pad25)",
+      "pcb_net_type": "unconnected",
+      "status": "both_unconnected",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "U2",
+          "pin": "25"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "U2",
+          "pad": "25",
+          "found": true
+        },
+        "comparison": "both_unconnected_by_classification"
+      }
+    },
+    {
+      "reference": "U2",
+      "pin": "26",
+      "function": "SCL/OUT2_26",
+      "electrical_type": "bidirectional",
+      "schematic_net": "unconnected-(U2-SCL/OUT2-Pad26)",
+      "schematic_net_type": "unconnected",
+      "pcb_net": "unconnected-(U2-SCL{slash}OUT2-Pad26)",
+      "pcb_net_type": "unconnected",
+      "status": "both_unconnected",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "U2",
+          "pin": "26"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "U2",
+          "pad": "26",
+          "found": true
+        },
+        "comparison": "both_unconnected_by_classification"
+      }
+    },
+    {
+      "reference": "U2",
+      "pin": "27",
+      "function": "ID_27",
+      "electrical_type": "output",
+      "schematic_net": "unconnected-(U2-ID-Pad27)",
+      "schematic_net_type": "unconnected",
+      "pcb_net": "unconnected-(U2-ID-Pad27)",
+      "pcb_net_type": "unconnected",
+      "status": "both_unconnected",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "U2",
+          "pin": "27"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "U2",
+          "pad": "27",
+          "found": true
+        },
+        "comparison": "both_unconnected_by_classification"
+      }
+    },
+    {
+      "reference": "U2",
+      "pin": "28",
+      "function": "GND__1_28",
+      "electrical_type": "power_in",
+      "schematic_net": "unconnected-(U2-GND__1-Pad28)",
+      "schematic_net_type": "unconnected",
+      "pcb_net": "unconnected-(U2-GND__1-Pad28)",
+      "pcb_net_type": "unconnected",
+      "status": "both_unconnected",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "U2",
+          "pin": "28"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "U2",
+          "pad": "28",
+          "found": true
+        },
+        "comparison": "both_unconnected_by_classification"
+      }
+    },
+    {
+      "reference": "U2",
+      "pin": "29",
+      "function": "~{ENN_CC}_29",
+      "electrical_type": "input",
+      "schematic_net": "GND",
+      "schematic_net_type": "named",
+      "pcb_net": "GND",
+      "pcb_net_type": "named",
+      "status": "matched",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "U2",
+          "pin": "29"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "U2",
+          "pad": "29",
+          "found": true
+        },
+        "comparison": "exact_net_name_match"
+      }
+    },
+    {
+      "reference": "U2",
+      "pin": "3",
+      "function": "CURRENT_MODE_3",
+      "electrical_type": "input",
+      "schematic_net": "unconnected-(U2-CURRENT_MODE-Pad3)",
+      "schematic_net_type": "unconnected",
+      "pcb_net": "unconnected-(U2-CURRENT_MODE-Pad3)",
+      "pcb_net_type": "unconnected",
+      "status": "both_unconnected",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "U2",
+          "pin": "3"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "U2",
+          "pad": "3",
+          "found": true
+        },
+        "comparison": "both_unconnected_by_classification"
+      }
+    },
+    {
+      "reference": "U2",
+      "pin": "30",
+      "function": "VDD5_30",
+      "electrical_type": "power_in",
+      "schematic_net": "unconnected-(U2-VDD5-Pad30)",
+      "schematic_net_type": "unconnected",
+      "pcb_net": "unconnected-(U2-VDD5-Pad30)",
+      "pcb_net_type": "unconnected",
+      "status": "both_unconnected",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "U2",
+          "pin": "30"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "U2",
+          "pad": "30",
+          "found": true
+        },
+        "comparison": "both_unconnected_by_classification"
+      }
+    },
+    {
+      "reference": "U2",
+      "pin": "31",
+      "function": "EXP_PAD_31",
+      "electrical_type": "power_in",
+      "schematic_net": "unconnected-(U2-EXP_PAD-Pad31)",
+      "schematic_net_type": "unconnected",
+      "pcb_net": "unconnected-(U2-EXP_PAD-Pad31)",
+      "pcb_net_type": "unconnected",
+      "status": "both_unconnected",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "U2",
+          "pin": "31"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "U2",
+          "pad": "31",
+          "found": true
+        },
+        "comparison": "both_unconnected_by_classification"
+      }
+    },
+    {
+      "reference": "U2",
+      "pin": "4",
+      "function": "PORT_4",
+      "electrical_type": "input",
+      "schematic_net": "GND",
+      "schematic_net_type": "named",
+      "pcb_net": "GND",
+      "pcb_net_type": "named",
+      "status": "matched",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "U2",
+          "pin": "4"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "U2",
+          "pad": "4",
+          "found": true
+        },
+        "comparison": "exact_net_name_match"
+      }
+    },
+    {
+      "reference": "U2",
+      "pin": "5",
+      "function": "VBUS_DET_5",
+      "electrical_type": "input",
+      "schematic_net": "VB Det",
+      "schematic_net_type": "named",
+      "pcb_net": "VB Det",
+      "pcb_net_type": "named",
+      "status": "matched",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "U2",
+          "pin": "5"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "U2",
+          "pad": "5",
+          "found": true
+        },
+        "comparison": "exact_net_name_match"
+      }
+    },
+    {
+      "reference": "U2",
+      "pin": "6",
+      "function": "TXP_6",
+      "electrical_type": "bidirectional",
+      "schematic_net": "SSpeed T",
+      "schematic_net_type": "named",
+      "pcb_net": "SSpeed T",
+      "pcb_net_type": "named",
+      "status": "matched",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "U2",
+          "pin": "6"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "U2",
+          "pad": "6",
+          "found": true
+        },
+        "comparison": "exact_net_name_match"
+      }
+    },
+    {
+      "reference": "U2",
+      "pin": "7",
+      "function": "TXN_7",
+      "electrical_type": "bidirectional",
+      "schematic_net": "SSpeed T -",
+      "schematic_net_type": "named",
+      "pcb_net": "SSpeed T -",
+      "pcb_net_type": "named",
+      "status": "matched",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "U2",
+          "pin": "7"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "U2",
+          "pad": "7",
+          "found": true
+        },
+        "comparison": "exact_net_name_match"
+      }
+    },
+    {
+      "reference": "U2",
+      "pin": "8",
+      "function": "VCC33_8",
+      "electrical_type": "power_in",
+      "schematic_net": "unconnected-(U2-VCC33-Pad8)",
+      "schematic_net_type": "unconnected",
+      "pcb_net": "unconnected-(U2-VCC33-Pad8)",
+      "pcb_net_type": "unconnected",
+      "status": "both_unconnected",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "U2",
+          "pin": "8"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "U2",
+          "pad": "8",
+          "found": true
+        },
+        "comparison": "both_unconnected_by_classification"
+      }
+    },
+    {
+      "reference": "U2",
+      "pin": "9",
+      "function": "RXP_9",
+      "electrical_type": "bidirectional",
+      "schematic_net": "SSpeed N",
+      "schematic_net_type": "named",
+      "pcb_net": "SSpeed N",
+      "pcb_net_type": "named",
+      "status": "matched",
+      "evidence_level": "derived",
+      "provenance": {
+        "schematic": {
+          "source": "kicad-cli-netlist",
+          "reference": "U2",
+          "pin": "9"
+        },
+        "pcb": {
+          "source": "kicad-ipc",
+          "reference": "U2",
+          "pad": "9",
+          "found": true
+        },
+        "comparison": "exact_net_name_match"
+      }
+    }
+  ],
+  "consistency": {
+    "summary": {
+      "matched_pins": 43,
+      "both_unconnected_pins": 41,
+      "net_mismatches": 0,
+      "schematic_only_pins": 0,
+      "pcb_only_pads": 0,
+      "schematic_only_components": 0,
+      "pcb_only_components": 0,
+      "component_value_mismatches": 0
+    },
+    "net_mismatches": [],
+    "schematic_only_pins": [],
+    "pcb_only_pads": [],
+    "schematic_only_components": [],
+    "pcb_only_components": [],
+    "component_value_mismatches": []
+  },
+  "evidence_policy": {
+    "raw": "KiCad schematic or PCB fields copied without interpretation.",
+    "derived": "Pin and pad matches computed by component reference and pin/pad number; net agreement is exact-name comparison.",
+    "inferred": "No engineering inferences are produced by this model."
+  }
+}

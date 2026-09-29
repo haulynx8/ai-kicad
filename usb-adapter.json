@@ -1,0 +1,922 @@
+{
+  "schema_version": "0.2",
+  "source": {
+    "kind": "kicad-ipc",
+    "board": "a-c_adapter.kicad_pcb"
+  },
+  "summary": {
+    "components": 5,
+    "nets": 59,
+    "layers": 2,
+    "enabled_layers": 24,
+    "tracks": 0,
+    "vias": 0,
+    "zones": 0
+  },
+  "components": [
+    {
+      "reference": "J1",
+      "value": "GSB416445CHR",
+      "footprint": "A:AMPHENOL_GSB416445CHR",
+      "side": "F.Cu",
+      "position_mm": {
+        "x": 176.29575,
+        "y": 113.5625
+      },
+      "pads": [
+        {
+          "number": "1",
+          "name": "",
+          "net": "unconnected-(J1-VBUS-Pad1)",
+          "net_type": "unconnected"
+        },
+        {
+          "number": "2",
+          "name": "",
+          "net": "ESD -",
+          "net_type": "named"
+        },
+        {
+          "number": "3",
+          "name": "",
+          "net": "ESD +",
+          "net_type": "named"
+        },
+        {
+          "number": "4",
+          "name": "",
+          "net": "unconnected-(J1-GND-Pad4)",
+          "net_type": "unconnected"
+        },
+        {
+          "number": "5",
+          "name": "",
+          "net": "SSpeed N -",
+          "net_type": "named"
+        },
+        {
+          "number": "6",
+          "name": "",
+          "net": "SSpeed N",
+          "net_type": "named"
+        },
+        {
+          "number": "7",
+          "name": "",
+          "net": "unconnected-(J1-GND_DRAIN-Pad7)",
+          "net_type": "unconnected"
+        },
+        {
+          "number": "8",
+          "name": "",
+          "net": "SSpeed T -",
+          "net_type": "named"
+        },
+        {
+          "number": "9",
+          "name": "",
+          "net": "SSpeed T",
+          "net_type": "named"
+        },
+        {
+          "number": "SH1",
+          "name": "",
+          "net": "unconnected-(J1-SHIELD-PadSH1)",
+          "net_type": "unconnected"
+        },
+        {
+          "number": "SH2",
+          "name": "",
+          "net": "unconnected-(J1-SHIELD__1-PadSH2)",
+          "net_type": "unconnected"
+        }
+      ]
+    },
+    {
+      "reference": "J2",
+      "value": "2047110001",
+      "footprint": "C:MOLEX_2047110001",
+      "side": "F.Cu",
+      "position_mm": {
+        "x": 159.75,
+        "y": 117.255
+      },
+      "pads": [
+        {
+          "number": "A1",
+          "name": "",
+          "net": "unconnected-(J2-GND_A1-PadA1)",
+          "net_type": "unconnected"
+        },
+        {
+          "number": "A2",
+          "name": "",
+          "net": "J-U SS T1",
+          "net_type": "named"
+        },
+        {
+          "number": "A3",
+          "name": "",
+          "net": "J-U SS T1 -",
+          "net_type": "named"
+        },
+        {
+          "number": "A4",
+          "name": "",
+          "net": "Net-(J2-VBUS_A4)",
+          "net_type": "named"
+        },
+        {
+          "number": "A5",
+          "name": "",
+          "net": "CC conn",
+          "net_type": "named"
+        },
+        {
+          "number": "A6",
+          "name": "",
+          "net": "ESD +",
+          "net_type": "named"
+        },
+        {
+          "number": "A7",
+          "name": "",
+          "net": "ESD -",
+          "net_type": "named"
+        },
+        {
+          "number": "A8",
+          "name": "",
+          "net": "unconnected-(J2-SBU1-PadA8)",
+          "net_type": "unconnected"
+        },
+        {
+          "number": "A9",
+          "name": "",
+          "net": "unconnected-(J2-VBUS_A9-PadA9)",
+          "net_type": "unconnected"
+        },
+        {
+          "number": "A10",
+          "name": "",
+          "net": "J-U SS R2 -",
+          "net_type": "named"
+        },
+        {
+          "number": "A11",
+          "name": "",
+          "net": "J-U SS R2",
+          "net_type": "named"
+        },
+        {
+          "number": "A12",
+          "name": "",
+          "net": "unconnected-(J2-GND_A12-PadA12)",
+          "net_type": "unconnected"
+        },
+        {
+          "number": "B1",
+          "name": "",
+          "net": "unconnected-(J2-GND_B1-PadB1)",
+          "net_type": "unconnected"
+        },
+        {
+          "number": "B2",
+          "name": "",
+          "net": "J-U SS T2",
+          "net_type": "named"
+        },
+        {
+          "number": "B3",
+          "name": "",
+          "net": "J-U SS T2 -",
+          "net_type": "named"
+        },
+        {
+          "number": "B4",
+          "name": "",
+          "net": "unconnected-(J2-VBUS_B4-PadB4)",
+          "net_type": "unconnected"
+        },
+        {
+          "number": "B5",
+          "name": "",
+          "net": "CC conn",
+          "net_type": "named"
+        },
+        {
+          "number": "B6",
+          "name": "",
+          "net": "unconnected-(J2-D2+-PadB6)",
+          "net_type": "unconnected"
+        },
+        {
+          "number": "B7",
+          "name": "",
+          "net": "unconnected-(J2-D2--PadB7)",
+          "net_type": "unconnected"
+        },
+        {
+          "number": "B8",
+          "name": "",
+          "net": "unconnected-(J2-SBU2-PadB8)",
+          "net_type": "unconnected"
+        },
+        {
+          "number": "B9",
+          "name": "",
+          "net": "unconnected-(J2-VBUS_B9-PadB9)",
+          "net_type": "unconnected"
+        },
+        {
+          "number": "B10",
+          "name": "",
+          "net": "J-U SS R -",
+          "net_type": "named"
+        },
+        {
+          "number": "B11",
+          "name": "",
+          "net": "J-U SS R",
+          "net_type": "named"
+        },
+        {
+          "number": "B12",
+          "name": "",
+          "net": "unconnected-(J2-GND_B12-PadB12)",
+          "net_type": "unconnected"
+        },
+        {
+          "number": "SH1",
+          "name": "",
+          "net": "unconnected-(J2-SHIELD1-PadSH1)",
+          "net_type": "unconnected"
+        },
+        {
+          "number": "SH2",
+          "name": "",
+          "net": "unconnected-(J2-SHIELD2-PadSH2)",
+          "net_type": "unconnected"
+        },
+        {
+          "number": "SH3",
+          "name": "",
+          "net": "unconnected-(J2-SHIELD3-PadSH3)",
+          "net_type": "unconnected"
+        },
+        {
+          "number": "SH4",
+          "name": "",
+          "net": "unconnected-(J2-SHIELD4-PadSH4)",
+          "net_type": "unconnected"
+        },
+        {
+          "number": "SH5",
+          "name": "",
+          "net": "unconnected-(J2-SHIELD5-PadSH5)",
+          "net_type": "unconnected"
+        },
+        {
+          "number": "SH6",
+          "name": "",
+          "net": "unconnected-(J2-SHIELD6-PadSH6)",
+          "net_type": "unconnected"
+        }
+      ]
+    },
+    {
+      "reference": "R3",
+      "value": "900 kOhm",
+      "footprint": "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder",
+      "side": "F.Cu",
+      "position_mm": {
+        "x": 152.5675,
+        "y": 108.0
+      },
+      "pads": [
+        {
+          "number": "1",
+          "name": "",
+          "net": "VB Det",
+          "net_type": "named"
+        },
+        {
+          "number": "2",
+          "name": "",
+          "net": "Net-(J2-VBUS_A4)",
+          "net_type": "named"
+        }
+      ]
+    },
+    {
+      "reference": "U1",
+      "value": "TPD4E05U06DQAR",
+      "footprint": "esd:IC_TPD4E05U06DQAR",
+      "side": "F.Cu",
+      "position_mm": {
+        "x": 176.4175,
+        "y": 105.4175
+      },
+      "pads": [
+        {
+          "number": "1",
+          "name": "",
+          "net": "ESD +",
+          "net_type": "named"
+        },
+        {
+          "number": "2",
+          "name": "",
+          "net": "ESD -",
+          "net_type": "named"
+        },
+        {
+          "number": "3",
+          "name": "",
+          "net": "unconnected-(U1-GND-Pad3)",
+          "net_type": "unconnected"
+        },
+        {
+          "number": "4",
+          "name": "",
+          "net": "ESD +",
+          "net_type": "named"
+        },
+        {
+          "number": "5",
+          "name": "",
+          "net": "ESD -",
+          "net_type": "named"
+        },
+        {
+          "number": "6",
+          "name": "",
+          "net": "unconnected-(U1-NC_6-Pad6)",
+          "net_type": "unconnected"
+        },
+        {
+          "number": "7",
+          "name": "",
+          "net": "unconnected-(U1-NC_7-Pad7)",
+          "net_type": "unconnected"
+        },
+        {
+          "number": "8",
+          "name": "",
+          "net": "unconnected-(U1-GND__1-Pad8)",
+          "net_type": "unconnected"
+        },
+        {
+          "number": "9",
+          "name": "",
+          "net": "unconnected-(U1-NC_9-Pad9)",
+          "net_type": "unconnected"
+        },
+        {
+          "number": "10",
+          "name": "",
+          "net": "unconnected-(U1-NC_10-Pad10)",
+          "net_type": "unconnected"
+        }
+      ]
+    },
+    {
+      "reference": "U2",
+      "value": "HD3SS3220IRNHT",
+      "footprint": "mux:QFN40P450X250X80-31N120X320",
+      "side": "F.Cu",
+      "position_mm": {
+        "x": 159.5,
+        "y": 105.0
+      },
+      "pads": [
+        {
+          "number": "1",
+          "name": "",
+          "net": "CC conn",
+          "net_type": "named"
+        },
+        {
+          "number": "2",
+          "name": "",
+          "net": "CC conn",
+          "net_type": "named"
+        },
+        {
+          "number": "3",
+          "name": "",
+          "net": "unconnected-(U2-CURRENT_MODE-Pad3)",
+          "net_type": "unconnected"
+        },
+        {
+          "number": "4",
+          "name": "",
+          "net": "GND",
+          "net_type": "named"
+        },
+        {
+          "number": "5",
+          "name": "",
+          "net": "VB Det",
+          "net_type": "named"
+        },
+        {
+          "number": "6",
+          "name": "",
+          "net": "SSpeed T",
+          "net_type": "named"
+        },
+        {
+          "number": "7",
+          "name": "",
+          "net": "SSpeed T -",
+          "net_type": "named"
+        },
+        {
+          "number": "8",
+          "name": "",
+          "net": "unconnected-(U2-VCC33-Pad8)",
+          "net_type": "unconnected"
+        },
+        {
+          "number": "9",
+          "name": "",
+          "net": "SSpeed N",
+          "net_type": "named"
+        },
+        {
+          "number": "10",
+          "name": "",
+          "net": "SSpeed N -",
+          "net_type": "named"
+        },
+        {
+          "number": "11",
+          "name": "",
+          "net": "unconnected-(U2-DIR-Pad11)",
+          "net_type": "unconnected"
+        },
+        {
+          "number": "12",
+          "name": "",
+          "net": "GND",
+          "net_type": "named"
+        },
+        {
+          "number": "13",
+          "name": "",
+          "net": "unconnected-(U2-GND-Pad13)",
+          "net_type": "unconnected"
+        },
+        {
+          "number": "14",
+          "name": "",
+          "net": "J-U SS R -",
+          "net_type": "named"
+        },
+        {
+          "number": "15",
+          "name": "",
+          "net": "J-U SS R",
+          "net_type": "named"
+        },
+        {
+          "number": "16",
+          "name": "",
+          "net": "J-U SS T1 -",
+          "net_type": "named"
+        },
+        {
+          "number": "17",
+          "name": "",
+          "net": "J-U SS T1",
+          "net_type": "named"
+        },
+        {
+          "number": "18",
+          "name": "",
+          "net": "J-U SS R2 -",
+          "net_type": "named"
+        },
+        {
+          "number": "19",
+          "name": "",
+          "net": "J-U SS R2",
+          "net_type": "named"
+        },
+        {
+          "number": "20",
+          "name": "",
+          "net": "J-U SS T2 -",
+          "net_type": "named"
+        },
+        {
+          "number": "21",
+          "name": "",
+          "net": "J-U SS T2",
+          "net_type": "named"
+        },
+        {
+          "number": "22",
+          "name": "",
+          "net": "unconnected-(U2-ADDR-Pad22)",
+          "net_type": "unconnected"
+        },
+        {
+          "number": "23",
+          "name": "",
+          "net": "unconnected-(U2-~{INT_N}{slash}OUT3-Pad23)",
+          "net_type": "unconnected"
+        },
+        {
+          "number": "24",
+          "name": "",
+          "net": "unconnected-(U2-VCONN_FAULT_N-Pad24)",
+          "net_type": "unconnected"
+        },
+        {
+          "number": "25",
+          "name": "",
+          "net": "unconnected-(U2-SDA{slash}OUT1-Pad25)",
+          "net_type": "unconnected"
+        },
+        {
+          "number": "26",
+          "name": "",
+          "net": "unconnected-(U2-SCL{slash}OUT2-Pad26)",
+          "net_type": "unconnected"
+        },
+        {
+          "number": "27",
+          "name": "",
+          "net": "unconnected-(U2-ID-Pad27)",
+          "net_type": "unconnected"
+        },
+        {
+          "number": "28",
+          "name": "",
+          "net": "unconnected-(U2-GND__1-Pad28)",
+          "net_type": "unconnected"
+        },
+        {
+          "number": "29",
+          "name": "",
+          "net": "GND",
+          "net_type": "named"
+        },
+        {
+          "number": "30",
+          "name": "",
+          "net": "unconnected-(U2-VDD5-Pad30)",
+          "net_type": "unconnected"
+        },
+        {
+          "number": "31",
+          "name": "",
+          "net": "unconnected-(U2-EXP_PAD-Pad31)",
+          "net_type": "unconnected"
+        }
+      ]
+    }
+  ],
+  "nets": [
+    {
+      "name": "CC conn",
+      "net_type": "named"
+    },
+    {
+      "name": "ESD +",
+      "net_type": "named"
+    },
+    {
+      "name": "ESD -",
+      "net_type": "named"
+    },
+    {
+      "name": "GND",
+      "net_type": "named"
+    },
+    {
+      "name": "J-U SS R",
+      "net_type": "named"
+    },
+    {
+      "name": "J-U SS R -",
+      "net_type": "named"
+    },
+    {
+      "name": "J-U SS R2",
+      "net_type": "named"
+    },
+    {
+      "name": "J-U SS R2 -",
+      "net_type": "named"
+    },
+    {
+      "name": "J-U SS T1",
+      "net_type": "named"
+    },
+    {
+      "name": "J-U SS T1 -",
+      "net_type": "named"
+    },
+    {
+      "name": "J-U SS T2",
+      "net_type": "named"
+    },
+    {
+      "name": "J-U SS T2 -",
+      "net_type": "named"
+    },
+    {
+      "name": "Net-(J2-VBUS_A4)",
+      "net_type": "named"
+    },
+    {
+      "name": "SSpeed N",
+      "net_type": "named"
+    },
+    {
+      "name": "SSpeed N -",
+      "net_type": "named"
+    },
+    {
+      "name": "SSpeed T",
+      "net_type": "named"
+    },
+    {
+      "name": "SSpeed T -",
+      "net_type": "named"
+    },
+    {
+      "name": "VB Det",
+      "net_type": "named"
+    },
+    {
+      "name": "unconnected-(J1-GND-Pad4)",
+      "net_type": "unconnected"
+    },
+    {
+      "name": "unconnected-(J1-GND_DRAIN-Pad7)",
+      "net_type": "unconnected"
+    },
+    {
+      "name": "unconnected-(J1-SHIELD-PadSH1)",
+      "net_type": "unconnected"
+    },
+    {
+      "name": "unconnected-(J1-SHIELD__1-PadSH2)",
+      "net_type": "unconnected"
+    },
+    {
+      "name": "unconnected-(J1-VBUS-Pad1)",
+      "net_type": "unconnected"
+    },
+    {
+      "name": "unconnected-(J2-D2+-PadB6)",
+      "net_type": "unconnected"
+    },
+    {
+      "name": "unconnected-(J2-D2--PadB7)",
+      "net_type": "unconnected"
+    },
+    {
+      "name": "unconnected-(J2-GND_A1-PadA1)",
+      "net_type": "unconnected"
+    },
+    {
+      "name": "unconnected-(J2-GND_A12-PadA12)",
+      "net_type": "unconnected"
+    },
+    {
+      "name": "unconnected-(J2-GND_B1-PadB1)",
+      "net_type": "unconnected"
+    },
+    {
+      "name": "unconnected-(J2-GND_B12-PadB12)",
+      "net_type": "unconnected"
+    },
+    {
+      "name": "unconnected-(J2-SBU1-PadA8)",
+      "net_type": "unconnected"
+    },
+    {
+      "name": "unconnected-(J2-SBU2-PadB8)",
+      "net_type": "unconnected"
+    },
+    {
+      "name": "unconnected-(J2-SHIELD1-PadSH1)",
+      "net_type": "unconnected"
+    },
+    {
+      "name": "unconnected-(J2-SHIELD2-PadSH2)",
+      "net_type": "unconnected"
+    },
+    {
+      "name": "unconnected-(J2-SHIELD3-PadSH3)",
+      "net_type": "unconnected"
+    },
+    {
+      "name": "unconnected-(J2-SHIELD4-PadSH4)",
+      "net_type": "unconnected"
+    },
+    {
+      "name": "unconnected-(J2-SHIELD5-PadSH5)",
+      "net_type": "unconnected"
+    },
+    {
+      "name": "unconnected-(J2-SHIELD6-PadSH6)",
+      "net_type": "unconnected"
+    },
+    {
+      "name": "unconnected-(J2-VBUS_A9-PadA9)",
+      "net_type": "unconnected"
+    },
+    {
+      "name": "unconnected-(J2-VBUS_B4-PadB4)",
+      "net_type": "unconnected"
+    },
+    {
+      "name": "unconnected-(J2-VBUS_B9-PadB9)",
+      "net_type": "unconnected"
+    },
+    {
+      "name": "unconnected-(U1-GND-Pad3)",
+      "net_type": "unconnected"
+    },
+    {
+      "name": "unconnected-(U1-GND__1-Pad8)",
+      "net_type": "unconnected"
+    },
+    {
+      "name": "unconnected-(U1-NC_10-Pad10)",
+      "net_type": "unconnected"
+    },
+    {
+      "name": "unconnected-(U1-NC_6-Pad6)",
+      "net_type": "unconnected"
+    },
+    {
+      "name": "unconnected-(U1-NC_7-Pad7)",
+      "net_type": "unconnected"
+    },
+    {
+      "name": "unconnected-(U1-NC_9-Pad9)",
+      "net_type": "unconnected"
+    },
+    {
+      "name": "unconnected-(U2-ADDR-Pad22)",
+      "net_type": "unconnected"
+    },
+    {
+      "name": "unconnected-(U2-CURRENT_MODE-Pad3)",
+      "net_type": "unconnected"
+    },
+    {
+      "name": "unconnected-(U2-DIR-Pad11)",
+      "net_type": "unconnected"
+    },
+    {
+      "name": "unconnected-(U2-EXP_PAD-Pad31)",
+      "net_type": "unconnected"
+    },
+    {
+      "name": "unconnected-(U2-GND-Pad13)",
+      "net_type": "unconnected"
+    },
+    {
+      "name": "unconnected-(U2-GND__1-Pad28)",
+      "net_type": "unconnected"
+    },
+    {
+      "name": "unconnected-(U2-ID-Pad27)",
+      "net_type": "unconnected"
+    },
+    {
+      "name": "unconnected-(U2-SCL{slash}OUT2-Pad26)",
+      "net_type": "unconnected"
+    },
+    {
+      "name": "unconnected-(U2-SDA{slash}OUT1-Pad25)",
+      "net_type": "unconnected"
+    },
+    {
+      "name": "unconnected-(U2-VCC33-Pad8)",
+      "net_type": "unconnected"
+    },
+    {
+      "name": "unconnected-(U2-VCONN_FAULT_N-Pad24)",
+      "net_type": "unconnected"
+    },
+    {
+      "name": "unconnected-(U2-VDD5-Pad30)",
+      "net_type": "unconnected"
+    },
+    {
+      "name": "unconnected-(U2-~{INT_N}{slash}OUT3-Pad23)",
+      "net_type": "unconnected"
+    }
+  ],
+  "layers": [
+    {
+      "id": 3,
+      "name": "F.Cu"
+    },
+    {
+      "id": 42,
+      "name": "F.Mask"
+    },
+    {
+      "id": 34,
+      "name": "B.Cu"
+    },
+    {
+      "id": 41,
+      "name": "B.Mask"
+    },
+    {
+      "id": 40,
+      "name": "F.Silkscreen"
+    },
+    {
+      "id": 39,
+      "name": "B.Silkscreen"
+    },
+    {
+      "id": 36,
+      "name": "F.Adhesive"
+    },
+    {
+      "id": 35,
+      "name": "B.Adhesive"
+    },
+    {
+      "id": 38,
+      "name": "F.Paste"
+    },
+    {
+      "id": 37,
+      "name": "B.Paste"
+    },
+    {
+      "id": 43,
+      "name": "User.Drawings"
+    },
+    {
+      "id": 44,
+      "name": "User.Comments"
+    },
+    {
+      "id": 45,
+      "name": "User.Eco1"
+    },
+    {
+      "id": 46,
+      "name": "User.Eco2"
+    },
+    {
+      "id": 47,
+      "name": "Edge.Cuts"
+    },
+    {
+      "id": 48,
+      "name": "Margin"
+    },
+    {
+      "id": 49,
+      "name": "B.Courtyard"
+    },
+    {
+      "id": 50,
+      "name": "F.Courtyard"
+    },
+    {
+      "id": 51,
+      "name": "B.Fab"
+    },
+    {
+      "id": 52,
+      "name": "F.Fab"
+    },
+    {
+      "id": 53,
+      "name": "User.1"
+    },
+    {
+      "id": 54,
+      "name": "User.2"
+    },
+    {
+      "id": 55,
+      "name": "User.3"
+    },
+    {
+      "id": 56,
+      "name": "User.4"
+    }
+  ],
+  "geometry": {
+    "tracks": [],
+    "vias": []
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://go.kicad.org/api/schemas/v1",
+  "identifier": "ai-kicad-inspector",
+  "name": "AI KiCad Inspector",
+  "description": "Read the open PCB into a structured JSON design model.",
+  "runtime": {"type": "python", "min_version": "3.10"},
+  "actions": [
+    {
+      "identifier": "inspect-board",
+      "name": "Inspect Board (JSON)",
+      "description": "Extract the open board and print its design model.",
+      "show-button": true,
+      "scopes": ["pcb"],
+      "entrypoint": "plugin_entry.py"
+    }
+  ]
+}

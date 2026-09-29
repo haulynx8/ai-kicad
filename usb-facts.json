@@ -1,0 +1,576 @@
+{
+  "facts_version": "0.3",
+  "source": {
+    "kind": "kicad-ipc",
+    "board": "a-c_adapter.kicad_pcb"
+  },
+  "classification_policy": "Names and reference conventions only; no unprovided pin-function semantics are inferred.",
+  "usb": {
+    "connector_candidates": [
+      {
+        "reference": "J1",
+        "value": "GSB416445CHR",
+        "footprint": "A:AMPHENOL_GSB416445CHR",
+        "pads": [
+          {
+            "number": "1",
+            "net": "unconnected-(J1-VBUS-Pad1)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "2",
+            "net": "ESD -",
+            "net_type": "named"
+          },
+          {
+            "number": "3",
+            "net": "ESD +",
+            "net_type": "named"
+          },
+          {
+            "number": "4",
+            "net": "unconnected-(J1-GND-Pad4)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "5",
+            "net": "SSpeed N -",
+            "net_type": "named"
+          },
+          {
+            "number": "6",
+            "net": "SSpeed N",
+            "net_type": "named"
+          },
+          {
+            "number": "7",
+            "net": "unconnected-(J1-GND_DRAIN-Pad7)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "8",
+            "net": "SSpeed T -",
+            "net_type": "named"
+          },
+          {
+            "number": "9",
+            "net": "SSpeed T",
+            "net_type": "named"
+          },
+          {
+            "number": "SH1",
+            "net": "unconnected-(J1-SHIELD-PadSH1)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "SH2",
+            "net": "unconnected-(J1-SHIELD__1-PadSH2)",
+            "net_type": "unconnected"
+          }
+        ],
+        "evidence": "reference begins with J"
+      },
+      {
+        "reference": "J2",
+        "value": "2047110001",
+        "footprint": "C:MOLEX_2047110001",
+        "pads": [
+          {
+            "number": "A1",
+            "net": "unconnected-(J2-GND_A1-PadA1)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "A2",
+            "net": "J-U SS T1",
+            "net_type": "named"
+          },
+          {
+            "number": "A3",
+            "net": "J-U SS T1 -",
+            "net_type": "named"
+          },
+          {
+            "number": "A4",
+            "net": "Net-(J2-VBUS_A4)",
+            "net_type": "named"
+          },
+          {
+            "number": "A5",
+            "net": "CC conn",
+            "net_type": "named"
+          },
+          {
+            "number": "A6",
+            "net": "ESD +",
+            "net_type": "named"
+          },
+          {
+            "number": "A7",
+            "net": "ESD -",
+            "net_type": "named"
+          },
+          {
+            "number": "A8",
+            "net": "unconnected-(J2-SBU1-PadA8)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "A9",
+            "net": "unconnected-(J2-VBUS_A9-PadA9)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "A10",
+            "net": "J-U SS R2 -",
+            "net_type": "named"
+          },
+          {
+            "number": "A11",
+            "net": "J-U SS R2",
+            "net_type": "named"
+          },
+          {
+            "number": "A12",
+            "net": "unconnected-(J2-GND_A12-PadA12)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "B1",
+            "net": "unconnected-(J2-GND_B1-PadB1)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "B2",
+            "net": "J-U SS T2",
+            "net_type": "named"
+          },
+          {
+            "number": "B3",
+            "net": "J-U SS T2 -",
+            "net_type": "named"
+          },
+          {
+            "number": "B4",
+            "net": "unconnected-(J2-VBUS_B4-PadB4)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "B5",
+            "net": "CC conn",
+            "net_type": "named"
+          },
+          {
+            "number": "B6",
+            "net": "unconnected-(J2-D2+-PadB6)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "B7",
+            "net": "unconnected-(J2-D2--PadB7)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "B8",
+            "net": "unconnected-(J2-SBU2-PadB8)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "B9",
+            "net": "unconnected-(J2-VBUS_B9-PadB9)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "B10",
+            "net": "J-U SS R -",
+            "net_type": "named"
+          },
+          {
+            "number": "B11",
+            "net": "J-U SS R",
+            "net_type": "named"
+          },
+          {
+            "number": "B12",
+            "net": "unconnected-(J2-GND_B12-PadB12)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "SH1",
+            "net": "unconnected-(J2-SHIELD1-PadSH1)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "SH2",
+            "net": "unconnected-(J2-SHIELD2-PadSH2)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "SH3",
+            "net": "unconnected-(J2-SHIELD3-PadSH3)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "SH4",
+            "net": "unconnected-(J2-SHIELD4-PadSH4)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "SH5",
+            "net": "unconnected-(J2-SHIELD5-PadSH5)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "SH6",
+            "net": "unconnected-(J2-SHIELD6-PadSH6)",
+            "net_type": "unconnected"
+          }
+        ],
+        "evidence": "reference begins with J"
+      }
+    ],
+    "vbus_like_nets": [
+      {
+        "name": "Net-(J2-VBUS_A4)",
+        "endpoints": [
+          {
+            "component": "J2",
+            "pad": "A4"
+          },
+          {
+            "component": "R3",
+            "pad": "2"
+          }
+        ]
+      }
+    ],
+    "ground_nets": [
+      {
+        "name": "GND",
+        "endpoints": [
+          {
+            "component": "U2",
+            "pad": "12"
+          },
+          {
+            "component": "U2",
+            "pad": "29"
+          },
+          {
+            "component": "U2",
+            "pad": "4"
+          }
+        ]
+      }
+    ],
+    "cc_nets": [
+      {
+        "name": "CC conn",
+        "endpoints": [
+          {
+            "component": "J2",
+            "pad": "A5"
+          },
+          {
+            "component": "J2",
+            "pad": "B5"
+          },
+          {
+            "component": "U2",
+            "pad": "1"
+          },
+          {
+            "component": "U2",
+            "pad": "2"
+          }
+        ]
+      }
+    ],
+    "named_usb2_d_plus_nets": [],
+    "named_usb2_d_minus_nets": [],
+    "superspeed_differential_pairs": [
+      {
+        "label": "J-U SS R",
+        "positive_net": "J-U SS R",
+        "negative_net": "J-U SS R -",
+        "positive_endpoints": [
+          {
+            "component": "J2",
+            "pad": "B11"
+          },
+          {
+            "component": "U2",
+            "pad": "15"
+          }
+        ],
+        "negative_endpoints": [
+          {
+            "component": "J2",
+            "pad": "B10"
+          },
+          {
+            "component": "U2",
+            "pad": "14"
+          }
+        ],
+        "evidence": "matching positive/negative net names containing an SS/SSpeed/USB3 label"
+      },
+      {
+        "label": "J-U SS R2",
+        "positive_net": "J-U SS R2",
+        "negative_net": "J-U SS R2 -",
+        "positive_endpoints": [
+          {
+            "component": "J2",
+            "pad": "A11"
+          },
+          {
+            "component": "U2",
+            "pad": "19"
+          }
+        ],
+        "negative_endpoints": [
+          {
+            "component": "J2",
+            "pad": "A10"
+          },
+          {
+            "component": "U2",
+            "pad": "18"
+          }
+        ],
+        "evidence": "matching positive/negative net names containing an SS/SSpeed/USB3 label"
+      },
+      {
+        "label": "J-U SS T1",
+        "positive_net": "J-U SS T1",
+        "negative_net": "J-U SS T1 -",
+        "positive_endpoints": [
+          {
+            "component": "J2",
+            "pad": "A2"
+          },
+          {
+            "component": "U2",
+            "pad": "17"
+          }
+        ],
+        "negative_endpoints": [
+          {
+            "component": "J2",
+            "pad": "A3"
+          },
+          {
+            "component": "U2",
+            "pad": "16"
+          }
+        ],
+        "evidence": "matching positive/negative net names containing an SS/SSpeed/USB3 label"
+      },
+      {
+        "label": "J-U SS T2",
+        "positive_net": "J-U SS T2",
+        "negative_net": "J-U SS T2 -",
+        "positive_endpoints": [
+          {
+            "component": "J2",
+            "pad": "B2"
+          },
+          {
+            "component": "U2",
+            "pad": "21"
+          }
+        ],
+        "negative_endpoints": [
+          {
+            "component": "J2",
+            "pad": "B3"
+          },
+          {
+            "component": "U2",
+            "pad": "20"
+          }
+        ],
+        "evidence": "matching positive/negative net names containing an SS/SSpeed/USB3 label"
+      },
+      {
+        "label": "SSpeed N",
+        "positive_net": "SSpeed N",
+        "negative_net": "SSpeed N -",
+        "positive_endpoints": [
+          {
+            "component": "J1",
+            "pad": "6"
+          },
+          {
+            "component": "U2",
+            "pad": "9"
+          }
+        ],
+        "negative_endpoints": [
+          {
+            "component": "J1",
+            "pad": "5"
+          },
+          {
+            "component": "U2",
+            "pad": "10"
+          }
+        ],
+        "evidence": "matching positive/negative net names containing an SS/SSpeed/USB3 label"
+      },
+      {
+        "label": "SSpeed T",
+        "positive_net": "SSpeed T",
+        "negative_net": "SSpeed T -",
+        "positive_endpoints": [
+          {
+            "component": "J1",
+            "pad": "9"
+          },
+          {
+            "component": "U2",
+            "pad": "6"
+          }
+        ],
+        "negative_endpoints": [
+          {
+            "component": "J1",
+            "pad": "8"
+          },
+          {
+            "component": "U2",
+            "pad": "7"
+          }
+        ],
+        "evidence": "matching positive/negative net names containing an SS/SSpeed/USB3 label"
+      }
+    ],
+    "esd_protection_candidates": [
+      {
+        "reference": "U1",
+        "value": "TPD4E05U06DQAR",
+        "footprint": "esd:IC_TPD4E05U06DQAR",
+        "nets": [
+          "ESD +",
+          "ESD -"
+        ],
+        "pads": [
+          {
+            "number": "1",
+            "net": "ESD +",
+            "net_type": "named"
+          },
+          {
+            "number": "2",
+            "net": "ESD -",
+            "net_type": "named"
+          },
+          {
+            "number": "3",
+            "net": "unconnected-(U1-GND-Pad3)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "4",
+            "net": "ESD +",
+            "net_type": "named"
+          },
+          {
+            "number": "5",
+            "net": "ESD -",
+            "net_type": "named"
+          },
+          {
+            "number": "6",
+            "net": "unconnected-(U1-NC_6-Pad6)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "7",
+            "net": "unconnected-(U1-NC_7-Pad7)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "8",
+            "net": "unconnected-(U1-GND__1-Pad8)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "9",
+            "net": "unconnected-(U1-NC_9-Pad9)",
+            "net_type": "unconnected"
+          },
+          {
+            "number": "10",
+            "net": "unconnected-(U1-NC_10-Pad10)",
+            "net_type": "unconnected"
+          }
+        ],
+        "evidence": "value or footprint identifier contains ESD, TVS, or transient"
+      }
+    ],
+    "resistor_components": [
+      {
+        "reference": "R3",
+        "value": "900 kOhm",
+        "nets": [
+          "Net-(J2-VBUS_A4)",
+          "VB Det"
+        ],
+        "pads": [
+          {
+            "number": "1",
+            "net": "VB Det",
+            "net_type": "named"
+          },
+          {
+            "number": "2",
+            "net": "Net-(J2-VBUS_A4)",
+            "net_type": "named"
+          }
+        ],
+        "evidence": "reference begins with R"
+      }
+    ],
+    "vbus_connected_components": [
+      {
+        "reference": "J2",
+        "value": "2047110001",
+        "vbus_like_nets": [
+          "Net-(J2-VBUS_A4)"
+        ],
+        "other_nets": [
+          "CC conn",
+          "ESD +",
+          "ESD -",
+          "J-U SS R",
+          "J-U SS R -",
+          "J-U SS R2",
+          "J-U SS R2 -",
+          "J-U SS T1",
+          "J-U SS T1 -",
+          "J-U SS T2",
+          "J-U SS T2 -"
+        ],
+        "evidence": "component pads share a net whose name contains VBUS"
+      },
+      {
+        "reference": "R3",
+        "value": "900 kOhm",
+        "vbus_like_nets": [
+          "Net-(J2-VBUS_A4)"
+        ],
+        "other_nets": [
+          "VB Det"
+        ],
+        "evidence": "component pads share a net whose name contains VBUS"
+      }
+    ]
+  },
+  "limitations": [
+    "KiCad 10.0.6 IPC provides pad numbers and net assignments here, but not electrical pad names.",
+    "USB connector roles and CC1/CC2 or D+/D- functions are not assigned from pad numbers without symbol pin semantics.",
+    "ESD and resistor component roles are candidates based on value, footprint identifier, and reference prefix."
+  ]
+}

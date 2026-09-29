@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ai-kicad-inspector"
+version = "0.1.0"
+description = "Read-only KiCad PCB inspector over the IPC API"
+requires-python = ">=3.10"
+dependencies = ["kicad-python>=0.8,<0.9"]
+
+[project.scripts]
+ai-kicad = "ai_kicad.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
